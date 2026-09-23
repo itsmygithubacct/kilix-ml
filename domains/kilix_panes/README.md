@@ -20,19 +20,15 @@ byte digests. The old pinned submodule remains available as a compatibility
 fallback for standalone Needle installations. Workspace tuning reads this pack;
 `KILIX_ML_HOME` can select an explicit source root.
 
-The pack now includes blind-written templates for all 14 actions and a blind
-off-domain list. Five new-action templates had a side-slot grammar error;
-their corrected forms and the contract pinned to kilix-needle `59beb18` feed
-the immutable kilix-ml `14-v6` training corpus. Its swap validation split
-holds out two whole phrasings with all four directions. `MIGRATION.json` still records
-the original imported ten-action files; it does not describe later blind
-additions. Regression tests in kilix-needle are development material, not a
-held-out model evaluation set. Keep the independent evaluator away from this
-pack and the training data.
+The pack includes independently written templates for all 14 actions and an
+off-domain refusal list. Training corpora can hold out complete phrasings for
+validation, including swap directions. `MIGRATION.json` records the original
+imported ten-action files; `corpus/blind_training_provenance.md` documents
+later additions. Keep training examples separate from held-out evaluation data.
 
 The Needle compatibility recipe still renders five tools and skips/counts
-examples requiring new actions it cannot express. The 7.2M model uses all 14
-tools directly, not that recipe or its LoRA settings.
+examples requiring new actions it cannot express. The full-tool model uses all
+14 tools directly.
 
 For inference, feed raw `function_calls` and the original request to
 `kilix-needle bridge --mode plan` or `--mode execute`. The JSONL envelope must

@@ -3,7 +3,7 @@
 Code is an independent MIT implementation by itsmygithubacct. No Cactus code,
 Needle model weights, or teacher-model outputs are included.
 
-Training sources selected by the project owner:
+Training data sources:
 
 | Source | Author | License | Use |
 | --- | --- | --- | --- |

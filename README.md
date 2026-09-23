@@ -12,7 +12,7 @@ second-domain gates. Untrained smoke-test exports are not usable model releases.
 The nominal **7.2M** configuration has **7,351,808** parameters: 20 attention-only
 layers, width 256, 8 query/4 KV heads, RoPE, Q/K RMS normalization, post-attention
 normalization, output gates and tied embeddings. The 25M configuration is
-25,189,376 parameters; the current training task targets 7.2M.
+25,189,376 parameters.
 
 The complete 14-tool prefix needs about 2,291 tokens. Context is therefore 3,072,
 while base-pretraining sequences remain 1,024. Prompts are never silently cut.
@@ -30,8 +30,7 @@ unshare -Urn uv run --no-sync python -m pytest -q
 
 Tests cover Torch/NumPy logits, incremental decoding, BF16 backward, non-pickle
 model export, corruption rejection, repeated CPU training digests, isolated-process
-runtime imports, and 10,000 independently schema-checked grammar walks. Rental
-tests use fake instances and do not incur charges.
+runtime imports, and 10,000 independently schema-checked grammar walks.
 
 ## Inference
 
@@ -65,11 +64,10 @@ NumPy in a larger host process too. Engine calls are serialized with a lock.
 
 ## Training
 
-`models/7.2m.json` records the recipe. The owner selected **mandatory pretraining**,
-**30B tokens**, a **$120 total rental cap**, and an initial **30-minute throughput
-probe**. Probe, pretraining and SFT share one Vast rental. Stop below 30B if the
-spend cap requires it. The probe measures throughput on a smaller repeating public
-sample; its weights are excluded from the main training run.
+`models/7.2m.json` records a 30B-token pretraining target followed by generic,
+Kilix, and synthetic-home supervised fine-tuning. A short throughput probe can
+measure the training setup on a repeating public sample; its weights are
+excluded from the main training run.
 
 Acquisition is an explicit online step (`kilix_ml.train.acquire`). Training reads
 only verified local token streams and corpus files. FineWeb-Edu/SYNTH are mixed
@@ -79,7 +77,6 @@ as new data. See [NOTICE.md](NOTICE.md) for sources, licenses and transformation
 ```sh
 python -m kilix_ml.train.run --help
 python -m kilix_ml.train.when2call --help
-python scripts/vast_budget.py plan --help
 python -m kilix_ml.evaluate --help
 ```
 
@@ -90,6 +87,6 @@ Stage ancestry, source-code digest, data digests, parameter counts and token cou
 are recorded. Optimizer checkpoints are training-only; runtime bundles contain no
 pickle. The second pack is `domains/synthetic_home`.
 
-Research notes, independent held-out cases, training data, private rental state,
-and generated weights live outside this source directory. No credentials or live
-Kilix store may be included in a rental upload.
+Independent held-out cases, training data, and generated weights live outside
+this source directory. Training artifacts must not contain credentials or live
+Kilix user data.
