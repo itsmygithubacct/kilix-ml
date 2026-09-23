@@ -1,0 +1,135 @@
+[
+ {
+  "description": "Lock or unlock a door",
+  "name": "lock_door",
+  "parameters": {
+   "additionalProperties": false,
+   "properties": {
+    "door": {
+     "enum": [
+      "back",
+      "front",
+      "garage"
+     ],
+     "type": "string"
+    },
+    "locked": {
+     "type": "boolean"
+    }
+   },
+   "required": [
+    "door",
+    "locked"
+   ],
+   "type": "object"
+  }
+ },
+ {
+  "description": "Open or close the blinds in a room to a percentage",
+  "name": "set_blinds",
+  "parameters": {
+   "additionalProperties": false,
+   "properties": {
+    "open_percent": {
+     "maximum": 100,
+     "minimum": 0,
+     "type": "integer"
+    },
+    "room": {
+     "enum": [
+      "bedroom",
+      "kitchen",
+      "living_room",
+      "study"
+     ],
+     "type": "string"
+    }
+   },
+   "required": [
+    "room",
+    "open_percent"
+   ],
+   "type": "object"
+  }
+ },
+ {
+  "description": "Turn a room's lights on or off and set brightness",
+  "name": "set_lights",
+  "parameters": {
+   "additionalProperties": false,
+   "properties": {
+    "brightness": {
+     "maximum": 100,
+     "minimum": 0,
+     "type": "integer"
+    },
+    "on": {
+     "type": "boolean"
+    },
+    "room": {
+     "enum": [
+      "bedroom",
+      "kitchen",
+      "living_room",
+      "porch",
+      "study"
+     ],
+     "type": "string"
+    }
+   },
+   "required": [
+    "room",
+    "on"
+   ],
+   "type": "object"
+  }
+ },
+ {
+  "description": "Set the heating target in Celsius and the mode",
+  "name": "set_thermostat",
+  "parameters": {
+   "additionalProperties": false,
+   "properties": {
+    "celsius": {
+     "maximum": 30,
+     "minimum": 10,
+     "type": "integer"
+    },
+    "mode": {
+     "enum": [
+      "auto",
+      "cool",
+      "heat"
+     ],
+     "type": "string"
+    }
+   },
+   "required": [
+    "celsius"
+   ],
+   "type": "object"
+  }
+ },
+ {
+  "description": "Start a kitchen timer in minutes",
+  "name": "start_timer",
+  "parameters": {
+   "additionalProperties": false,
+   "properties": {
+    "label": {
+     "type": "string",
+     "x-source": "input"
+    },
+    "minutes": {
+     "maximum": 90,
+     "minimum": 1,
+     "type": "integer"
+    }
+   },
+   "required": [
+    "minutes"
+   ],
+   "type": "object"
+  }
+ }
+]

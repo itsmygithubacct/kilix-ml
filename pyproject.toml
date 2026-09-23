@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "kilix-ml"
+version = "0.1.0"
+description = "Small tool models with an offline NumPy runtime"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "itsmygithubacct"}]
+dependencies = ["numpy>=2.0,<3"]
+
+[project.optional-dependencies]
+train = ["torch>=2.6,<3", "tokenizers>=0.21,<1", "safetensors>=0.5,<1"]
+acquire = ["datasets>=3,<6", "huggingface-hub>=0.30,<2"]
+test = ["pytest>=8,<10", "jsonschema>=4,<5"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "scripts/tests"]

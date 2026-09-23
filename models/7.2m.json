@@ -1,0 +1,10 @@
+{
+  "name": "7.2m",
+  "parameters": 7351808,
+  "config": {"vocab_size": 8192, "width": 256, "layers": 20, "heads": 8, "kv_heads": 4, "context": 3072, "rope_theta": 10000.0, "norm_eps": 0.000001},
+  "pretrain": {"target_tokens": 30000000000, "sequence": 1024, "batch": 8, "accumulate": 32, "lr": 0.006, "warmup": 500, "mix_tokens": {"fineweb": 0.7, "synth": 0.3}},
+  "generic_sft": {"steps": 2000, "batch": 4, "accumulate": 8, "lr": 0.0003, "warmup": 100, "mix_examples": {"generic": 0.75, "cross": 0.15, "when2call": 0.10}},
+  "kilix_sft": {"steps": 2000, "batch": 4, "accumulate": 8, "lr": 0.0003, "warmup": 100, "mix_examples": {"kilix": 0.65, "generic": 0.20, "cross": 0.15}},
+  "rental": {"probe_seconds": 1800, "budget_usd": 120, "same_instance_all_stages": true},
+  "notes": ["7.2m is the nominal family name; parameters are reported exactly.", "Full 14-tool prefix is 2291 tokens with tokenizer byte-bpe-v1; context3072 avoids truncation.", "Probe throughput and validation loss determine feasible steps within the hard spend cap."]
+}
