@@ -1,0 +1,1207 @@
+{
+ "schema": "kilix-needle.train-env-licences/v1",
+ "lock": "domains/kilix_panes/requirements-train.lock",
+ "lock_sha256": "829eb4d0a546491b791ff4d93871059f7b8e61a4a741a0a6a050728eb53796cd",
+ "python": "3.13",
+ "platform": "linux x86_64",
+ "packages": 31,
+ "missing_from_install": [],
+ "not_matching_lock": [],
+ "without_licence_text": [],
+ "records": [
+  {
+   "package": "absl-py",
+   "version": "2.5.0",
+   "locked": true,
+   "lock_hashes": 2,
+   "wheel_tag": [
+    "py3-none-any"
+   ],
+   "licence": "Apache-2.0",
+   "declared": {
+    "expression_or_field": "Apache-2.0",
+    "classifiers": [
+     "Apache Software License"
+    ]
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:AUTHORS",
+     "sha256": "6282ee76cca569083b5b998b9f816ba1032e127b8dc7c46942b86477fc6fbfa5",
+     "bytes": 296
+    },
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+     "bytes": 11358
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "aiofiles",
+   "version": "25.1.0",
+   "locked": true,
+   "lock_hashes": 2,
+   "wheel_tag": [
+    "py3-none-any"
+   ],
+   "licence": "Apache-2.0",
+   "declared": {
+    "expression_or_field": "Apache-2.0",
+    "classifiers": [
+     "Apache Software License"
+    ]
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14",
+     "bytes": 11325
+    },
+    {
+     "path": "wheel:NOTICE",
+     "sha256": "104c58d1d450bd6474c09d8b64bc0182733a60ac3d8c253e334cde8294520ff1",
+     "bytes": 55
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "etils",
+   "version": "1.14.0",
+   "locked": true,
+   "lock_hashes": 2,
+   "wheel_tag": [
+    "py3-none-any"
+   ],
+   "licence": "Apache-2.0",
+   "declared": {
+    "expression_or_field": null,
+    "classifiers": [
+     "Apache Software License"
+    ]
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+     "bytes": 11357
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "flax",
+   "version": "0.12.9",
+   "locked": true,
+   "lock_hashes": 2,
+   "wheel_tag": [
+    "py3-none-any"
+   ],
+   "licence": "Apache-2.0",
+   "declared": {
+    "expression_or_field": null,
+    "classifiers": [
+     "Apache Software License"
+    ]
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "25e8791da26f7e74c4baf19eafd7d137b64a46952ef840ed01c172b680cf4046",
+     "bytes": 11309
+    },
+    {
+     "path": "wheel:AUTHORS",
+     "sha256": "c40b7d7b299133a1925952b0de6cc2b85da32513de36a4b058c149b21c6df9a1",
+     "bytes": 293
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "fsspec",
+   "version": "2026.9.0",
+   "locked": true,
+   "lock_hashes": 2,
+   "wheel_tag": [
+    "py3-none-any"
+   ],
+   "licence": "BSD-3-Clause",
+   "declared": {
+    "expression_or_field": "BSD-3-Clause",
+    "classifiers": []
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "2dc35496ce53a7307915c008a844aad53e772b49b34cdd00445067691407ec94",
+     "bytes": 1513
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "humanize",
+   "version": "4.16.0",
+   "locked": true,
+   "lock_hashes": 2,
+   "wheel_tag": [
+    "py3-none-any"
+   ],
+   "licence": "MIT",
+   "declared": {
+    "expression_or_field": "MIT",
+    "classifiers": []
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENCE",
+     "sha256": "8ba6c18112a431400ad3c743f70670079b302545d98884fc2f28a91c383a0380",
+     "bytes": 1078
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "jax",
+   "version": "0.11.2",
+   "locked": true,
+   "lock_hashes": 2,
+   "wheel_tag": [
+    "py3-none-any"
+   ],
+   "licence": "Apache-2.0",
+   "declared": {
+    "expression_or_field": "Apache-2.0",
+    "classifiers": []
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+     "bytes": 11358
+    },
+    {
+     "path": "wheel:AUTHORS",
+     "sha256": "38e050ca0ac8d5973de00609c9c1f5aff0520b03f7f07cafdec96e765b49ee16",
+     "bytes": 313
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "jaxlib",
+   "version": "0.11.2",
+   "locked": true,
+   "lock_hashes": 22,
+   "wheel_tag": [
+    "cp313-cp313-manylinux_2_27_x86_64"
+   ],
+   "licence": "Apache-2.0",
+   "declared": {
+    "expression_or_field": "Apache-2.0",
+    "classifiers": []
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE.txt",
+     "sha256": "e3d8688a2c75d4e33641cc88046a8a1593ee79822411fa45a7bd32e37f847d29",
+     "bytes": 229029
+    }
+   ],
+   "bundled": [
+    {
+     "name": "JAX",
+     "licence": null,
+     "detected": [
+      "Apache-2.0"
+     ]
+    },
+    {
+     "name": "BoringSSL",
+     "licence": null,
+     "detected": [
+      "MIT-style",
+      "BSD-style",
+      "OpenSSL"
+     ]
+    },
+    {
+     "name": "gRPC",
+     "licence": null,
+     "detected": [
+      "Apache-2.0"
+     ]
+    },
+    {
+     "name": "Abseil",
+     "licence": null,
+     "detected": [
+      "Apache-2.0"
+     ]
+    },
+    {
+     "name": "Protocol buffers",
+     "licence": null,
+     "detected": [
+      "BSD-style"
+     ]
+    },
+    {
+     "name": "RE2",
+     "licence": null,
+     "detected": [
+      "BSD-style"
+     ]
+    },
+    {
+     "name": "DLPack",
+     "licence": null,
+     "detected": [
+      "Apache-2.0"
+     ]
+    },
+    {
+     "name": "double-conversion",
+     "licence": null,
+     "detected": [
+      "BSD-style"
+     ]
+    },
+    {
+     "name": "Eigen",
+     "licence": null,
+     "detected": [
+      "Apache-2.0",
+      "MPL-2.0",
+      "BSD-style",
+      "GPL"
+     ]
+    },
+    {
+     "name": "Farmhash",
+     "licence": null,
+     "detected": [
+      "MIT-style"
+     ]
+    },
+    {
+     "name": "Flatbuffers",
+     "licence": null,
+     "detected": [
+      "Apache-2.0"
+     ]
+    },
+    {
+     "name": "highwayhash",
+     "licence": null,
+     "detected": [
+      "Apache-2.0"
+     ]
+    },
+    {
+     "name": "libjpeg-turbo",
+     "licence": null,
+     "detected": [
+      "BSD-style",
+      "Zlib-style",
+      "IJG"
+     ]
+    },
+    {
+     "name": "fft2d",
+     "licence": null,
+     "detected": []
+    },
+    {
+     "name": "giflib",
+     "licence": null,
+     "detected": [
+      "MIT-style"
+     ]
+    },
+    {
+     "name": "llvm-project",
+     "licence": null,
+     "detected": [
+      "Apache-2.0",
+      "MIT-style",
+      "BSD-style"
+     ]
+    },
+    {
+     "name": "mkl_dnn",
+     "licence": null,
+     "detected": [
+      "Apache-2.0",
+      "BSD-style"
+     ]
+    },
+    {
+     "name": "nsync",
+     "licence": null,
+     "detected": [
+      "Apache-2.0"
+     ]
+    },
+    {
+     "name": "TensorFlow",
+     "licence": null,
+     "detected": [
+      "Apache-2.0"
+     ]
+    },
+    {
+     "name": "pybind11",
+     "licence": null,
+     "detected": [
+      "BSD-style"
+     ]
+    },
+    {
+     "name": "snappy",
+     "licence": null,
+     "detected": [
+      "BSD-style"
+     ]
+    },
+    {
+     "name": "upb",
+     "licence": null,
+     "detected": [
+      "BSD-style"
+     ]
+    },
+    {
+     "name": "zlib",
+     "licence": null,
+     "detected": [
+      "Zlib-style"
+     ]
+    }
+   ],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": [
+    "Eigen: MPL-2.0"
+   ]
+  },
+  {
+   "package": "markdown-it-py",
+   "version": "4.2.0",
+   "locked": true,
+   "lock_hashes": 2,
+   "wheel_tag": [
+    "py3-none-any"
+   ],
+   "licence": "MIT",
+   "declared": {
+    "expression_or_field": null,
+    "classifiers": [
+     "MIT License"
+    ]
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "4a2260d6e2cd0f5a151a1e86dbfe7d3ed552b1e2beabf9941c1ba5c49cbce484",
+     "bytes": 1078
+    },
+    {
+     "path": "wheel:LICENSE.markdown-it",
+     "sha256": "792c48c5a849a15fdf9e37e8bcf9e6d1dd13b32b46c642a748a0a46a9919d473",
+     "bytes": 1073
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "mdurl",
+   "version": "0.1.2",
+   "locked": true,
+   "lock_hashes": 2,
+   "wheel_tag": [
+    "py3-none-any"
+   ],
+   "licence": "MIT",
+   "declared": {
+    "expression_or_field": null,
+    "classifiers": [
+     "MIT License"
+    ]
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "7c605df6e28667a9603118e98274f64a49ce3eed0d26fccce9534a345e0ef955",
+     "bytes": 2338
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "ml-dtypes",
+   "version": "0.6.0",
+   "locked": true,
+   "lock_hashes": 40,
+   "wheel_tag": [
+    "cp313-cp313-manylinux_2_27_x86_64",
+    "cp313-cp313-manylinux_2_28_x86_64"
+   ],
+   "licence": "Apache-2.0",
+   "declared": {
+    "expression_or_field": "Apache-2.0",
+    "classifiers": []
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+     "bytes": 11358
+    },
+    {
+     "path": "wheel:LICENSE.eigen",
+     "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04",
+     "bytes": 16726
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "msgpack",
+   "version": "1.2.2",
+   "locked": true,
+   "lock_hashes": 88,
+   "wheel_tag": [
+    "cp313-cp313-manylinux_2_17_x86_64",
+    "cp313-cp313-manylinux2014_x86_64",
+    "cp313-cp313-manylinux_2_28_x86_64"
+   ],
+   "licence": "Apache-2.0",
+   "declared": {
+    "expression_or_field": "Apache-2.0",
+    "classifiers": []
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:COPYING",
+     "sha256": "492dedba85da5872f78e6091bcd1fea474d660d35acb4dee964b8aab3f007427",
+     "bytes": 614
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "numpy",
+   "version": "2.5.3",
+   "locked": true,
+   "lock_hashes": 66,
+   "wheel_tag": [
+    "cp313-cp313-manylinux_2_27_x86_64",
+    "cp313-cp313-manylinux_2_28_x86_64"
+   ],
+   "licence": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+   "declared": {
+    "expression_or_field": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+    "classifiers": []
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE.txt",
+     "sha256": "4860083caa0de2ac3292ca98bd074bd8f45d8b32624e37b1e70a240bff61e488",
+     "bytes": 46794
+    },
+    {
+     "path": "wheel:numpy/_core/include/numpy/libdivide/LICENSE.txt",
+     "sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec",
+     "bytes": 1018
+    },
+    {
+     "path": "wheel:numpy/_core/src/common/pythoncapi-compat/COPYING",
+     "sha256": "3f2c1ffa76383a55ae0aac01c9737cd70050dff63e1f026694fbe9d662573c98",
+     "bytes": 690
+    },
+    {
+     "path": "wheel:numpy/_core/src/highway/LICENSE",
+     "sha256": "e340270d4f64384569a91d546acb5b094d69ce47f0c015db77abb74dc6f815af",
+     "bytes": 20785
+    },
+    {
+     "path": "wheel:numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+     "sha256": "f7b14309e5f54e5022b26448eefd419988ada2aec01d3c1162d84a0ea8f21f2c",
+     "bytes": 1414
+    },
+    {
+     "path": "wheel:numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+     "sha256": "211e7d737d6179a08f791ebb0a99897ce7cd2457410c542876d125576edfe910",
+     "bytes": 1514
+    },
+    {
+     "path": "wheel:numpy/_core/src/umath/svml/LICENSE",
+     "sha256": "c17011467b4fe6e20fbfbeda4df09e58c2bca5480a063e55735a4000a379aad9",
+     "bytes": 1543
+    },
+    {
+     "path": "wheel:numpy/fft/pocketfft/LICENSE.md",
+     "sha256": "a85ca13fdf90160b64a0698215868c13b74d835ad0a4e2ba44713b8c5058a056",
+     "bytes": 1498
+    },
+    {
+     "path": "wheel:numpy/linalg/lapack_lite/LICENSE.txt",
+     "sha256": "a14cc25e10d40a3aa705b7de2fb764a6535d8ee9b2db4e1724900585457dfd55",
+     "bytes": 2266
+    },
+    {
+     "path": "wheel:numpy/ma/LICENSE",
+     "sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6",
+     "bytes": 1593
+    },
+    {
+     "path": "wheel:numpy/random/LICENSE.md",
+     "sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f",
+     "bytes": 3511
+    },
+    {
+     "path": "wheel:numpy/random/src/distributions/LICENSE.md",
+     "sha256": "469778be8f33d54e1bcaab28c281cc472916d2d273f835e55bc487d30503face",
+     "bytes": 2745
+    },
+    {
+     "path": "wheel:numpy/random/src/mt19937/LICENSE.md",
+     "sha256": "0e111337b25494a773106695f0e799f642b8567aaacca4f116a74a8177179156",
+     "bytes": 2926
+    },
+    {
+     "path": "wheel:numpy/random/src/pcg64/LICENSE.md",
+     "sha256": "e7d4f4fb20358f314210a892ae17351e04993813646f697ec387385ca2a36918",
+     "bytes": 1154
+    },
+    {
+     "path": "wheel:numpy/random/src/philox/LICENSE.md",
+     "sha256": "6f5828a57223d4cc7f8ea505a2623e7b978b242752c1515e355f46ba2cec1800",
+     "bytes": 1509
+    },
+    {
+     "path": "wheel:numpy/random/src/sfc64/LICENSE.md",
+     "sha256": "9d4098846018319cd68e228ee6220361787f73bccbf00237a85e4fc9621b998f",
+     "bytes": 1226
+    },
+    {
+     "path": "wheel:numpy/random/src/splitmix64/LICENSE.md",
+     "sha256": "268b0ca06759d31ea3ca68dd35f20e877916e927b1c2a835e4592a3c4354b1f9",
+     "bytes": 332
+    }
+   ],
+   "bundled": [
+    {
+     "name": "OpenBLAS",
+     "licence": "BSD-3-Clause"
+    },
+    {
+     "name": "LAPACK",
+     "licence": "BSD-3-Clause-Open-MPI"
+    },
+    {
+     "name": "GCC runtime library",
+     "licence": "GPL-3.0-or-later WITH GCC-exception-3.1"
+    },
+    {
+     "name": "libquadmath",
+     "licence": "LGPL-2.1-or-later"
+    }
+   ],
+   "vendored_shared_libraries": [
+    "libgfortran-83c28eba-468e71e5.so.5.0.0",
+    "libquadmath-2284e583-a9307bba.so.0.0.0",
+    "libscipy_openblas64_-f48b354e.so"
+   ],
+   "notable_bundled_terms": [
+    "GPL-3.0-or-later WITH GCC-exception-3.1",
+    "LGPL-2.1-or-later"
+   ]
+  },
+  {
+   "package": "opt-einsum",
+   "version": "3.4.0",
+   "locked": true,
+   "lock_hashes": 2,
+   "wheel_tag": [
+    "py3-none-any"
+   ],
+   "licence": "MIT",
+   "declared": {
+    "expression_or_field": "MIT",
+    "classifiers": [
+     "MIT License"
+    ]
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "7b26691a7c8ee48af425a53cbaeaabc9aa3a84ea2e93fe47a1ecc550c1de76db",
+     "bytes": 1080
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "optax",
+   "version": "0.2.8",
+   "locked": true,
+   "lock_hashes": 2,
+   "wheel_tag": [
+    "py3-none-any"
+   ],
+   "licence": "Apache-2.0",
+   "declared": {
+    "expression_or_field": null,
+    "classifiers": [
+     "Apache Software License"
+    ]
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+     "bytes": 11358
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "orbax-checkpoint",
+   "version": "0.12.5",
+   "locked": true,
+   "lock_hashes": 2,
+   "wheel_tag": [
+    "py3-none-any"
+   ],
+   "licence": "Apache-2.0",
+   "declared": {
+    "expression_or_field": null,
+    "classifiers": [
+     "Apache Software License"
+    ]
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+     "bytes": 11357
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "prometheus-client",
+   "version": "0.26.0",
+   "locked": true,
+   "lock_hashes": 2,
+   "wheel_tag": [
+    "py3-none-any"
+   ],
+   "licence": "Apache-2.0 AND BSD-2-Clause",
+   "declared": {
+    "expression_or_field": "Apache-2.0 AND BSD-2-Clause",
+    "classifiers": []
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+     "bytes": 11357
+    },
+    {
+     "path": "wheel:NOTICE",
+     "sha256": "4efa1874aeaa60f365f5797e617f1ff933e15e508eaf751e9848ed4413d7a7ae",
+     "bytes": 236
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "protobuf",
+   "version": "7.36.2",
+   "locked": true,
+   "lock_hashes": 8,
+   "wheel_tag": [
+    "cp310-abi3-manylinux2014_x86_64"
+   ],
+   "licence": "BSD-3-Clause",
+   "declared": {
+    "expression_or_field": "3-Clause BSD License",
+    "classifiers": []
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "6e5e117324afd944dcf67f36cf329843bc1a92229a8cd9bb573d7a83130fea7d",
+     "bytes": 1732
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "psutil",
+   "version": "7.2.2",
+   "locked": true,
+   "lock_hashes": 21,
+   "wheel_tag": [
+    "cp36-abi3-manylinux_2_12_x86_64",
+    "cp36-abi3-manylinux2010_x86_64",
+    "cp36-abi3-manylinux_2_28_x86_64"
+   ],
+   "licence": "BSD-3-Clause",
+   "declared": {
+    "expression_or_field": "BSD-3-Clause",
+    "classifiers": []
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "b89c063b3786e28e0c0a38f1931db61fed35e69dd2a2966fbecffee0f46c8d10",
+     "bytes": 1548
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "pygments",
+   "version": "2.21.0",
+   "locked": true,
+   "lock_hashes": 2,
+   "wheel_tag": [
+    "py3-none-any"
+   ],
+   "licence": "BSD-2-Clause",
+   "declared": {
+    "expression_or_field": "BSD-2-Clause",
+    "classifiers": []
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:AUTHORS",
+     "sha256": "71a83872ad82f57be692cf827e048e2cd51d45169cfa1ea3f28706d97a872c0f",
+     "bytes": 11048
+    },
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17",
+     "bytes": 1331
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "pyyaml",
+   "version": "6.0.3",
+   "locked": true,
+   "lock_hashes": 73,
+   "wheel_tag": [
+    "cp313-cp313-manylinux_2_17_x86_64",
+    "cp313-cp313-manylinux2014_x86_64",
+    "cp313-cp313-manylinux_2_28_x86_64"
+   ],
+   "licence": "MIT",
+   "declared": {
+    "expression_or_field": "MIT",
+    "classifiers": [
+     "MIT License"
+    ]
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4",
+     "bytes": 1101
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "rich",
+   "version": "15.0.0",
+   "locked": true,
+   "lock_hashes": 2,
+   "wheel_tag": [
+    "py3-none-any"
+   ],
+   "licence": "MIT",
+   "declared": {
+    "expression_or_field": "MIT",
+    "classifiers": [
+     "MIT License"
+    ]
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15",
+     "bytes": 1056
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "safetensors",
+   "version": "0.8.0",
+   "locked": true,
+   "lock_hashes": 17,
+   "wheel_tag": [
+    "cp310-abi3-manylinux_2_17_x86_64",
+    "cp310-abi3-manylinux2014_x86_64"
+   ],
+   "licence": "Apache-2.0",
+   "declared": {
+    "expression_or_field": null,
+    "classifiers": [
+     "Apache Software License"
+    ]
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+     "bytes": 11357
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "scipy",
+   "version": "1.18.1",
+   "locked": true,
+   "lock_hashes": 61,
+   "wheel_tag": [
+    "cp313-cp313-manylinux_2_27_x86_64",
+    "cp313-cp313-manylinux_2_28_x86_64"
+   ],
+   "licence": "BSD-3-Clause",
+   "declared": {
+    "expression_or_field": "Copyright (c) 2001-2002 Enthought, Inc. 2003, SciPy Developers.",
+    "classifiers": [
+     "BSD License"
+    ]
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE.txt",
+     "sha256": "17e7db9ffa4913121fa2df484633a362456a482da736c99db4711a98473770ea",
+     "bytes": 46845
+    }
+   ],
+   "bundled": [
+    {
+     "name": "OpenBLAS",
+     "licence": "BSD-3-Clause"
+    },
+    {
+     "name": "LAPACK",
+     "licence": "BSD-3-Clause-Open-MPI"
+    },
+    {
+     "name": "GCC runtime library",
+     "licence": "GPL-3.0-or-later WITH GCC-exception-3.1"
+    },
+    {
+     "name": "libquadmath",
+     "licence": "LGPL-2.1-or-later"
+    }
+   ],
+   "vendored_shared_libraries": [
+    "libgfortran-040039e1-0352e75f.so.5.0.0",
+    "libgfortran-83c28eba.so.5.0.0",
+    "libquadmath-2284e583.so.0.0.0",
+    "libquadmath-96973f99-934c22de.so.0.0.0",
+    "libscipy_openblas-5f890258.so"
+   ],
+   "notable_bundled_terms": [
+    "GPL-3.0-or-later WITH GCC-exception-3.1",
+    "LGPL-2.1-or-later"
+   ]
+  },
+  {
+   "package": "sentencepiece",
+   "version": "0.2.2",
+   "locked": true,
+   "lock_hashes": 57,
+   "wheel_tag": [
+    "cp313-cp313-manylinux_2_27_x86_64",
+    "cp313-cp313-manylinux_2_28_x86_64"
+   ],
+   "licence": "Apache-2.0",
+   "declared": {
+    "expression_or_field": "Apache-2.0",
+    "classifiers": []
+   },
+   "text_source": "sdist sentencepiece-0.2.2.tar.gz (sha256 3d2b5e824b5622038dc7b490897efe05ebbbb9e7350fc142f3ecc8789ef9bdf6); the wheel ships no licence text",
+   "texts": [
+    {
+     "path": "sdist:sentencepiece/LICENSE",
+     "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+     "bytes": 11358
+    },
+    {
+     "path": "sdist:sentencepiece/third_party/abseil-cpp/LICENSE",
+     "sha256": "c79a7fea0e3cac04cd43f20e7b648e5a0ff8fa5344e644b0ee09ca1162b62747",
+     "bytes": 11361
+    },
+    {
+     "path": "sdist:sentencepiece/third_party/darts_clone/LICENSE",
+     "sha256": "155f59997298ee336602c49f9c1110f268ac394ca2197eb02647a3555935ad52",
+     "bytes": 1481
+    },
+    {
+     "path": "sdist:sentencepiece/third_party/esaxx/LICENSE",
+     "sha256": "7c28553d1d3312d65fe309f76a22ebaf33a3d76c8c1e3b98a88ee4654ecb53db",
+     "bytes": 1112
+    },
+    {
+     "path": "sdist:sentencepiece/third_party/protobuf-lite/LICENSE",
+     "sha256": "6e5e117324afd944dcf67f36cf329843bc1a92229a8cd9bb573d7a83130fea7d",
+     "bytes": 1732
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "simplejson",
+   "version": "4.1.2",
+   "locked": true,
+   "lock_hashes": 96,
+   "wheel_tag": [
+    "cp313-cp313-manylinux_2_5_x86_64",
+    "cp313-cp313-manylinux1_x86_64",
+    "cp313-cp313-manylinux_2_28_x86_64"
+   ],
+   "licence": "MIT OR AFL-2.1",
+   "declared": {
+    "expression_or_field": "MIT OR AFL-2.1",
+    "classifiers": []
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE.txt",
+     "sha256": "fcaa1e313a99304322e2e0836ea4ee7d839ce9a480438f3922a853edfdde129f",
+     "bytes": 10375
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "tensorstore",
+   "version": "0.1.85",
+   "locked": true,
+   "lock_hashes": 25,
+   "wheel_tag": [
+    "cp313-cp313-manylinux_2_27_x86_64",
+    "cp313-cp313-manylinux_2_28_x86_64"
+   ],
+   "licence": "Apache-2.0",
+   "declared": {
+    "expression_or_field": "Apache-2.0",
+    "classifiers": []
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "628786ec1554437a196542bac39a41bcd76c8a6752f0d9b45c4017555c1d6926",
+     "bytes": 15662
+    },
+    {
+     "path": "wheel:AUTHORS",
+     "sha256": "d60b40db6094c9e9d0d6579ac3c6c11fc4dd70b3f552b70c3c4032aff20057e2",
+     "bytes": 303
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "treescope",
+   "version": "0.1.10",
+   "locked": true,
+   "lock_hashes": 2,
+   "wheel_tag": [
+    "py3-none-any"
+   ],
+   "licence": "Apache-2.0",
+   "declared": {
+    "expression_or_field": null,
+    "classifiers": [
+     "Apache Software License"
+    ]
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+     "bytes": 11358
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "typing-extensions",
+   "version": "4.16.0",
+   "locked": true,
+   "lock_hashes": 2,
+   "wheel_tag": [
+    "py3-none-any"
+   ],
+   "licence": "PSF-2.0",
+   "declared": {
+    "expression_or_field": "PSF-2.0",
+    "classifiers": []
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+     "bytes": 13936
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "uvloop",
+   "version": "0.22.1",
+   "locked": true,
+   "lock_hashes": 49,
+   "wheel_tag": [
+    "cp313-cp313-manylinux_2_17_x86_64",
+    "cp313-cp313-manylinux2014_x86_64",
+    "cp313-cp313-manylinux_2_28_x86_64"
+   ],
+   "licence": "MIT OR Apache-2.0",
+   "declared": {
+    "expression_or_field": "MIT License",
+    "classifiers": [
+     "Apache Software License",
+     "MIT License"
+    ]
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE-APACHE",
+     "sha256": "377025287798f9dcd819e1f826fa5fc5e2f382528691ab0528c5cf8c8c282c27",
+     "bytes": 11439
+    },
+    {
+     "path": "wheel:LICENSE-MIT",
+     "sha256": "6dd4c399f26de043d77a2ad7e31db4cb5bf08ea8368b0a42d6e158635cc8ab62",
+     "bytes": 1105
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  },
+  {
+   "package": "zipp",
+   "version": "4.1.0",
+   "locked": true,
+   "lock_hashes": 2,
+   "wheel_tag": [
+    "py3-none-any"
+   ],
+   "licence": "MIT",
+   "declared": {
+    "expression_or_field": "MIT",
+    "classifiers": []
+   },
+   "text_source": "wheel",
+   "texts": [
+    {
+     "path": "wheel:LICENSE",
+     "sha256": "9755a18519666e5f0f4cae3daad3d7012bcae48a600b31237d75e9fe134e6683",
+     "bytes": 1076
+    }
+   ],
+   "bundled": [],
+   "vendored_shared_libraries": [],
+   "notable_bundled_terms": []
+  }
+ ]
+}

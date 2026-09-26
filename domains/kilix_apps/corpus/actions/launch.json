@@ -1,0 +1,1206 @@
+{
+ "action": "launch",
+ "templates": [
+  {
+   "text": "open {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "launch {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "launch the {app} please",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "start {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "could you start the {app} for me",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "run {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "please run the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "fire up {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "fire up the {app} for me",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "boot up {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "boot the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "bring up the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "pull up {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "can you pull up the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "load {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "load up the {app} real quick",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "show me the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "give me the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "get me {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "spin up the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "would you open {app} for me",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "hey, open the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open up {app} please",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "kindly launch the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I need you to open the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "please start up the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "go ahead and open {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "just open {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "quick, bring up the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open {app} now",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "launch {app} for me please",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "if you could launch the {app} that would be great",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "start the {app} up",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "pop open the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I need the {app}, can you open it",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "yo launch {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open {app} pls",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "hey can you run the {app} for me",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "let's open the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "let's fire up {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I've got some work to do, open the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "before I forget, launch {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "could you please load the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "would you be so kind as to open {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open {app} for me will ya",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "launch {app} right away",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "give me {app} please",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open the {app} and the {app2}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$app2"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "play {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "let's play {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I want to play {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I'd like to play {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "want to play {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "can we play {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "play some {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "let's play a round of {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I'm up for a round of {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "anyone up for a round of {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I'm in the mood for {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "in the mood for some {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "how about a game of {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "start a game of {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "fancy a game of {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "launch {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "fire up {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "boot up {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "load up {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "start {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "run {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I'm bored, open {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I'm bored, let's play {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "got a few minutes, fire up {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "on my lunch break, start up {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "could you launch {game} for me",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "please open {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "let's fire up {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I really want to play {game} right now",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "let's play some {game} please",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I'd like to play a quick game of {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "spin up {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "bring up {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "get me {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "give me a game of {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "pull up {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I feel like a game of {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "up for a round of {game}?",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "play {game} and {game2}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$game2"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open the {tool}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "launch {tool}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "bring up the {tool}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "pull up the {tool}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "could you open the {tool} for me",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "start the {tool}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "give me the {tool}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "get me the {tool} please",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "fire up the {tool}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "load the {tool}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open up {tool} please",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "run {tool}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "can you launch the {tool}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I'm curious, open the {tool}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "please bring up the {tool}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "pop open the {tool}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "launch {app} and then {tool}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open the {tool}, then play {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  }
+ ]
+}

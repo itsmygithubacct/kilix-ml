@@ -1,0 +1,168 @@
+{
+ "dosbox": [
+  "dosbox",
+  "dos box",
+  "ms-dos",
+  "msdos",
+  "dos prompt"
+ ],
+ "kilix-file": [
+  "kilix file",
+  "file browser",
+  "file manager",
+  "files app"
+ ],
+ "kilix-system-center": [
+  "kilix system center",
+  "system center",
+  "system centre",
+  "system overview"
+ ],
+ "kilix-settings-center": [
+  "kilix settings center",
+  "settings center",
+  "settings centre",
+  "settings app"
+ ],
+ "kilix-software-center": [
+  "kilix software center",
+  "software center",
+  "software centre",
+  "software store",
+  "app store"
+ ],
+ "kilix-session-center": [
+  "kilix session center",
+  "session center",
+  "session centre"
+ ],
+ "kilix-model-store": [
+  "kilix model store",
+  "model store",
+  "models store"
+ ],
+ "kilix-camera-wall": [
+  "kilix camera wall",
+  "camera wall"
+ ],
+ "kilix-region-painter": [
+  "kilix region painter",
+  "region painter",
+  "mask painter",
+  "mask editor"
+ ],
+ "kilix-voice-studio": [
+  "kilix voice studio",
+  "voice studio"
+ ],
+ "kilix-camera-manager": [
+  "kilix camera manager",
+  "camera manager"
+ ],
+ "kilix-virtualbox-manager": [
+  "kilix virtualbox manager",
+  "virtualbox manager",
+  "virtualbox",
+  "vm manager"
+ ],
+ "kilix-weather": [
+  "kilix weather",
+  "weather app",
+  "weather"
+ ],
+ "kilix-calculator": [
+  "kilix calculator",
+  "calculator",
+  "calc"
+ ],
+ "kilix-music-control": [
+  "kilix music control",
+  "music control",
+  "music controls",
+  "music remote"
+ ],
+ "kilix-chawan": [
+  "kilix chawan",
+  "chawan",
+  "text browser",
+  "web browser",
+  "text-mode browser"
+ ],
+ "kilix-rollout-resume": [
+  "kilix rollout resume",
+  "rollout resume",
+  "rollout-resume"
+ ],
+ "kilix-character-map": [
+  "kilix character map",
+  "character map",
+  "charmap",
+  "char map"
+ ],
+ "kilix-notepad": [
+  "kilix notepad",
+  "notepad",
+  "text editor"
+ ],
+ "kilix-find-files": [
+  "kilix find files",
+  "find files",
+  "file search",
+  "search for files"
+ ],
+ "kilix-session-log": [
+  "kilix session log",
+  "session log",
+  "session logs"
+ ],
+ "kilix-amp": [
+  "kilix amp",
+  "amp",
+  "music player",
+  "media player"
+ ],
+ "kilix-pdf": [
+  "kilix pdf",
+  "pdf viewer",
+  "pdf reader"
+ ],
+ "kilix-pdf-conversion": [
+  "kilix pdf conversion",
+  "pdf conversion",
+  "pdf converter",
+  "pdf to markdown"
+ ],
+ "kilix-rtsp": [
+  "kilix rtsp",
+  "rtsp"
+ ],
+ "kilix-nvr": [
+  "kilix nvr",
+  "nvr",
+  "camera recorder"
+ ],
+ "kilix-object-detect": [
+  "kilix object detect",
+  "object detect",
+  "object detection",
+  "object detector"
+ ],
+ "kilix-tmux-manager": [
+  "kilix tmux manager",
+  "tmux manager",
+  "tmux"
+ ],
+ "kilix-graphs": [
+  "kilix graphs",
+  "graphs",
+  "graph",
+  "charts"
+ ],
+ "kilix-techno": [
+  "kilix techno",
+  "techno",
+  "music workstation",
+  "sequencer",
+  "drum machine"
+ ]
+}

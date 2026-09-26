@@ -1,0 +1,1443 @@
+{
+ "action": "show",
+ "templates": [
+  {
+   "text": "show the {item}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "show {item}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "show the {item} indicator in the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "please show the {item} icon",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "could you show the {item} button on every pane",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "show the {item} button on the panes again",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "show the {item} pane button",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "show the {item} icon up in the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "display the {item} in the status bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "display {item} on the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "display the {item} button on each pane",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "can you display the {item} indicator for me",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "turn on the {item} indicator",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "turn the {item} button on",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "please turn on the {item} icon in the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "turn on {item} in the status bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "turn the {item} icon on in the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "switch on the {item} icon",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "switch on the {item} indicator in the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "switch on {item} for the panes",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "put the {item} back in the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "please put the {item} indicator back",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "can you put the {item} button back on the panes",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "put the {item} icon in the status bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "put a {item} icon in the top bar for me",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "put back the {item} button on the panes",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "bring back the {item} indicator",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "could you bring back the {item} button on the panes",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "add back the {item} button",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "add the {item} to the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "add a {item} button to the panes",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "add {item} to the status bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "enable the {item} button on each pane",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "enable the {item} icon in the top bar please",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "enable the {item} pane button",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "enable {item}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "re-enable the {item} indicator",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "re-enable the {item} button on all panes",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "please re-enable {item}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "unhide the {item}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "unhide the {item} button on the panes",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "restore the {item} icon in the bar at the top",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "restore the {item}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "please restore the {item} button",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "reveal the {item} button",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "reveal the {item} icon in the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "reveal {item} in the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I want to see the {item} in the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I want to see {item} in the bar at the top",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I want the {item} indicator back",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I want the {item} button on the panes again",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I want the {item} in the status bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I'd like the {item} button on the panes",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I'd like the {item} indicator in the status bar please",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I'd like to see the {item} indicator again",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "hide the {item}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "hide {item}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "hide the {item} indicator in the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "please hide the {item} icon",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "could you hide the {item} button from the panes",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "hide the {item} button on the panes",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "hide the {item} pane button",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "hide the {item} icon from the status bar for me",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "hide the {item} indicator for now",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "remove the {item} from the status bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "can you remove the {item} indicator for me",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "remove the {item} button from each pane",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "remove the {item} pane button",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "kindly remove the {item} icon",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "turn off the {item} indicator",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "turn the {item} button off",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "please turn off {item} in the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "turn {item} off",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "turn the {item} indicator off please",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "switch off the {item} icon",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "switch off the {item} indicator please",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "switch off the {item} pane button",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "get rid of the {item} button",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "get rid of the {item} indicator in the bar at the top",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "get rid of {item} please",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "get rid of the {item} icon up in the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "stop showing the {item} in the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "stop showing the {item} button on panes",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "don't show the {item} indicator",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "don't show {item} in the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "the top bar should no longer show the {item}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "the status bar should no longer show the {item} icon",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I don't want the {item} in the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I don't need the {item} button anymore",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I don't need the {item} indicator",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "disable the {item} indicator",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "disable the {item} button on every pane",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "disable {item} in the status bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "could you disable the {item} icon in the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "drop the {item} from the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "please drop the {item} button from the panes",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "ditch the {item} icon",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "ditch the {item} indicator in the status bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "lose the {item} button",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "lose the {item} from the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "take the {item} off the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "could you take the {item} off the panes",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "take the {item} button away",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "take the {item} icon out of the status bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "show the {item} and the {item2}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item2",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "turn on the {item} and the {item2} indicators",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item2",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "enable the {item} button and the {item2} button",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item2",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "put back the {item} and {item2} icons",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item2",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "please bring back the {item} and the {item2} in the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item2",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "hide the {item} and the {item2}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item2",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "remove the {item} and {item2} icons from the top bar",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item2",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "turn off the {item} indicator and the {item2} indicator",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item2",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "get rid of the {item} and the {item2} buttons",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item2",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "please disable the {item} and the {item2} on the panes",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item2",
+      "on": false
+     }
+    ]
+   ]
+  }
+ ]
+}

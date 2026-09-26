@@ -1,0 +1,619 @@
+{
+ "action": "game",
+ "templates": [
+  {
+   "text": "make {game} available in the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "enable {game} in the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "add {game} to the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "put {game} back in the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "show {game} in the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "unhide {game} in the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "re-enable the {game} game",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "allow {game} in the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "unblock {game} in the games menu",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "restore {game} to the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "bring back {game} in the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I want {game} in the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I'd like {game} in the list of games again",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "could you make the {game} game available",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "please add back {game} to the list of games",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "turn on {game} in the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "switch on {game} in the game list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "enable the {game} game for me",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "can you put {game} in the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "reveal {game} in the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I want to see {game} in the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "let {game} show up in the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "put the {game} game back on the list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "make {game} available again please",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "make {game} unavailable",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "hide {game} from the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "disable {game} in the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "take {game} off the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "take {game} out of the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "get rid of {game} in the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "drop {game} from the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "ditch {game} from the list of games",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "block {game} in the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "turn off {game} in the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "switch off the {game} game",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I don't want {game} in the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I don't need {game} in the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "stop showing {game} in the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "don't show {game} in the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "the games list should no longer show {game}",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "please make the {game} game unavailable",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "could you hide the {game} game",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "lose {game} from the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "take the {game} game away",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "disable the {game} game for me",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "can you block {game}",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "hide {game} in the game list please",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "turn the {game} game off",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "enable {game} and {game2} in the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ],
+    [
+     "game",
+     {
+      "game": "$game2",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "hide {game} and {game2} from the games list",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ],
+    [
+     "game",
+     {
+      "game": "$game2",
+      "available": false
+     }
+    ]
+   ]
+  }
+ ]
+}

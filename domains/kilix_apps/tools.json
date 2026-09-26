@@ -1,0 +1,128 @@
+[
+  {
+    "name": "launch",
+    "description": "Open a Kilix app, game or tool in a new tab",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "app": {
+          "type": "string",
+          "description": "the app, game or tool, as the request names it"
+        }
+      },
+      "required": [
+        "app"
+      ]
+    }
+  },
+  {
+    "name": "show",
+    "description": "Show or hide an indicator on the Kilix top bar or a button on panes",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "item": {
+          "type": "string",
+          "enum": [
+            "clock",
+            "calendar",
+            "battery",
+            "network",
+            "temperature",
+            "volume",
+            "windows",
+            "speak",
+            "dictate",
+            "split_left",
+            "split_right",
+            "split_up",
+            "split_down",
+            "maximize",
+            "close",
+            "font_increase",
+            "font_decrease",
+            "synchronize_input"
+          ]
+        },
+        "on": {
+          "type": "boolean",
+          "description": "true to show it, false to hide it"
+        }
+      },
+      "required": [
+        "item",
+        "on"
+      ]
+    }
+  },
+  {
+    "name": "pane_stat",
+    "description": "How each pane shows its CPU or memory use",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "stat": {
+          "type": "string",
+          "enum": [
+            "cpu",
+            "memory"
+          ]
+        },
+        "mode": {
+          "type": "string",
+          "enum": [
+            "auto",
+            "always",
+            "off"
+          ]
+        }
+      },
+      "required": [
+        "stat",
+        "mode"
+      ]
+    }
+  },
+  {
+    "name": "game",
+    "description": "Make a game available or unavailable in the Kilix games list (not play it)",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "game": {
+          "type": "string",
+          "description": "the game, as the request names it"
+        },
+        "available": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "game",
+        "available"
+      ]
+    }
+  },
+  {
+    "name": "settings",
+    "description": "Open the Kilix settings screen at a section",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "section": {
+          "type": "string",
+          "enum": [
+            "top-bar",
+            "pane-buttons",
+            "voice",
+            "games",
+            "tools"
+          ]
+        }
+      },
+      "required": [
+        "section"
+      ]
+    }
+  }
+]

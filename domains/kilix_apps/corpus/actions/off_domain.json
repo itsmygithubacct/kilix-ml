@@ -1,0 +1,209 @@
+{
+ "action": "none",
+ "templates": [
+  {
+   "text": "what's the weather like tomorrow?",
+   "actions": []
+  },
+  {
+   "text": "will it rain today?",
+   "actions": []
+  },
+  {
+   "text": "is it going to be sunny this weekend?",
+   "actions": []
+  },
+  {
+   "text": "how cold is it outside right now?",
+   "actions": []
+  },
+  {
+   "text": "do I need an umbrella today?",
+   "actions": []
+  },
+  {
+   "text": "what's the forecast for saturday?",
+   "actions": []
+  },
+  {
+   "text": "tell me a joke",
+   "actions": []
+  },
+  {
+   "text": "know any good jokes?",
+   "actions": []
+  },
+  {
+   "text": "why did the chicken cross the road?",
+   "actions": []
+  },
+  {
+   "text": "make me laugh",
+   "actions": []
+  },
+  {
+   "text": "how do I reverse a list in python?",
+   "actions": []
+  },
+  {
+   "text": "what's the difference between a tuple and a list?",
+   "actions": []
+  },
+  {
+   "text": "write a bash loop that counts to ten",
+   "actions": []
+  },
+  {
+   "text": "how do I undo my last git commit?",
+   "actions": []
+  },
+  {
+   "text": "explain recursion to me",
+   "actions": []
+  },
+  {
+   "text": "why is my rust code not compiling?",
+   "actions": []
+  },
+  {
+   "text": "how do I write a regex that matches emails?",
+   "actions": []
+  },
+  {
+   "text": "what does idempotent mean?",
+   "actions": []
+  },
+  {
+   "text": "remind me to call mom at 5",
+   "actions": []
+  },
+  {
+   "text": "set a reminder for my dentist appointment tomorrow",
+   "actions": []
+  },
+  {
+   "text": "remind me to buy milk",
+   "actions": []
+  },
+  {
+   "text": "set an alarm for 7am",
+   "actions": []
+  },
+  {
+   "text": "what's 17 times 23?",
+   "actions": []
+  },
+  {
+   "text": "what is the square root of 144?",
+   "actions": []
+  },
+  {
+   "text": "how much is 15 percent of 80?",
+   "actions": []
+  },
+  {
+   "text": "convert 5 miles to kilometers",
+   "actions": []
+  },
+  {
+   "text": "what's 2 plus 2?",
+   "actions": []
+  },
+  {
+   "text": "divide 144 by 12",
+   "actions": []
+  },
+  {
+   "text": "is 97 a prime number?",
+   "actions": []
+  },
+  {
+   "text": "what's the integral of x squared?",
+   "actions": []
+  },
+  {
+   "text": "how are you doing today?",
+   "actions": []
+  },
+  {
+   "text": "good morning",
+   "actions": []
+  },
+  {
+   "text": "thanks a lot",
+   "actions": []
+  },
+  {
+   "text": "who are you?",
+   "actions": []
+  },
+  {
+   "text": "what's the capital of australia?",
+   "actions": []
+  },
+  {
+   "text": "how tall is mount everest?",
+   "actions": []
+  },
+  {
+   "text": "translate hello into spanish",
+   "actions": []
+  },
+  {
+   "text": "recommend a good book",
+   "actions": []
+  },
+  {
+   "text": "what should I cook for dinner?",
+   "actions": []
+  },
+  {
+   "text": "how many days until christmas?",
+   "actions": []
+  },
+  {
+   "text": "how do you spell necessary?",
+   "actions": []
+  },
+  {
+   "text": "summarize the plot of hamlet",
+   "actions": []
+  },
+  {
+   "text": "who won the world cup in 2018?",
+   "actions": []
+  },
+  {
+   "text": "write me a haiku about autumn",
+   "actions": []
+  },
+  {
+   "text": "I'm bored",
+   "actions": []
+  },
+  {
+   "text": "you're awesome",
+   "actions": []
+  },
+  {
+   "text": "flip a coin",
+   "actions": []
+  },
+  {
+   "text": "what's the meaning of life?",
+   "actions": []
+  },
+  {
+   "text": "what's the fastest land animal?",
+   "actions": []
+  },
+  {
+   "text": "how long should I boil an egg?",
+   "actions": []
+  },
+  {
+   "text": "email my landlord about the broken heater",
+   "actions": []
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "minesweeper": [
+  "minesweeper",
+  "mine sweeper",
+  "mines"
+ ],
+ "solitaire": [
+  "solitaire",
+  "klondike",
+  "patience"
+ ],
+ "doom": [
+  "doom"
+ ],
+ "bashed-earth": [
+  "bashed earth",
+  "artillery game"
+ ],
+ "kilix-jpak": [
+  "kilix jpak",
+  "jpak",
+  "vault game"
+ ],
+ "kilix-rancher": [
+  "kilix rancher",
+  "rancher",
+  "fire kitten",
+  "fire-kitten"
+ ],
+ "kilix-pong": [
+  "kilix pong",
+  "pong",
+  "paddle game"
+ ],
+ "kilix-lights": [
+  "kilix lights",
+  "lights out"
+ ],
+ "super-kilix": [
+  "super kilix",
+  "platformer"
+ ],
+ "joustix": [
+  "joustix",
+  "joust",
+  "jousting game"
+ ],
+ "chess-bash": [
+  "chess bash",
+  "chess"
+ ],
+ "kilix-fishtank": [
+  "kilix fishtank",
+  "fishtank",
+  "fish tank",
+  "aquarium"
+ ],
+ "terminal-lander": [
+  "terminal lander",
+  "lunar lander",
+  "moon lander",
+  "lander"
+ ],
+ "kitty-brokeout": [
+  "kitty brokeout",
+  "brokeout",
+  "breakout",
+  "brick breaker"
+ ],
+ "kilix-land": [
+  "kilix land"
+ ],
+ "dosbox": [
+  "dosbox",
+  "dos box",
+  "ms-dos",
+  "msdos",
+  "dos prompt"
+ ]
+}

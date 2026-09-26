@@ -1,0 +1,1485 @@
+{
+ "action": "compound",
+ "templates": [
+  {
+   "text": "open the {app} and hide the {item}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "play {game} then turn off the {item}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "show the {item} and launch the {tool}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "hide the {item} and the {item2}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item2",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "enable {game} and then launch it",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "make {game} available, then play it",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open {app} and {app2}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$app2"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "launch the {app}, the {app2} and the {app3}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$app2"
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$app3"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "turn on the {item} and turn off the {item2}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item2",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "put the {item} back and get rid of the {item2}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item2",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "set {stat} to always and hide the {item}",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "show {stat} only when busy, then open the {tool}",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open the {section} settings and then play {game}",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "disable {game} and enable {game2}",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ],
+    [
+     "game",
+     {
+      "game": "$game2",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "could you fire up the {tool} and show the {item}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "please hide the {item} then open the {section} preferences",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ],
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "let's play {game} and get rid of the {item}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "set {stat} to auto and {stat2} to always",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ],
+    [
+     "pane_stat",
+     {
+      "stat": "$stat2",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "turn {stat} off, then show {stat2} constantly",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ],
+    [
+     "pane_stat",
+     {
+      "stat": "$stat2",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open the {tool} then the {tool2}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$tool2"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "block {game}, then open the {app}",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "boot {game} and hide the {item}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "pull up the {section} options and switch off the {item}",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "bring back the {item}, the {item2} and the {item3}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item2",
+      "on": true
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item3",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "unhide the {item} then launch {game}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "take the {item} off the bar and put the {item2} back",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item2",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "unblock {game} and start it",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "fire up {game} and afterwards make it unavailable",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ],
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open {app} then play {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "can you load the {app}, and turn the {item} on",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "stop showing the {item} and open the {section} page",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ],
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "restore the {item} and set {stat} to automatic",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ],
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "run the {tool}, then show the {item}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "ditch the {item} and bring up the {tool}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "enable {game} and {game2}",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ],
+    [
+     "game",
+     {
+      "game": "$game2",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "disable {game}, {game2} and {game3}",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ],
+    [
+     "game",
+     {
+      "game": "$game2",
+      "available": false
+     }
+    ],
+    [
+     "game",
+     {
+      "game": "$game3",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "show {stat} at all times and hide {stat2}",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ],
+    [
+     "pane_stat",
+     {
+      "stat": "$stat2",
+      "mode": "off"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "show {stat} permanently then launch {game}",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "configure {section} options then open the {tool}",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "get me the {tool} and switch on the {item}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "spin up the {app}, then hide the {item}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "hide the {item}, display the {item2}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item2",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I want to see the {item}, then let's play {game}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "lose the {item} then give me {game}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "turn the {item} off, then open the {app} and the {app2}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$app2"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "launch the {tool} and then play {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I'm in the mood for {game} and please hide the {item}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I'm up for a round of {game}, and put the {item} back",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "enable {game}, then open the {section} settings",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ],
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open {section} settings and disable {game}",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ],
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "take the {item} away and show {stat} only when needed",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ],
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "set {stat} to off and open the {tool}",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "allow {game} and then play it",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "add {game} back and launch it",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "re-enable the {item} and the {item2}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item2",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "switch off the {item}, the {item2} and the {item3}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item2",
+      "on": false
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item3",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open the {app} and then open the {app2}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$app2"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "stop showing {stat} and hide the {item}",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "bring up the {section} panel then launch the {tool}",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "play {game}, then play {game2}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$game2"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "start {game} and after that disable the {item}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "block {game} and {game2} then launch {game3}",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ],
+    [
+     "game",
+     {
+      "game": "$game2",
+      "available": false
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$game3"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "turn on the {item}, open the {tool} and set {stat} to always",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ],
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "please show {stat} when busy and show the {item}",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open the {tool} for me and then hide the {item}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "make {game} unavailable then open {game2}",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$game2"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "disable the {item} and re-enable the {item2}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item2",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "enable {game} then let's play it",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "pull up the {app} and the {tool}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "show {stat} automatically and show {stat2} always",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ],
+    [
+     "pane_stat",
+     {
+      "stat": "$stat2",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "hide {stat} then hide the {item}",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open the {section} screen and hide the {item}",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ],
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "drop the {item} and give me the {app}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "could you unhide the {item} and then open the {tool}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "launch {game}, then open the {section} settings",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ],
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "reveal the {item} and load {game}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I don't need the {item} anymore, just open the {app}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ],
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "unblock {game} and {game2}",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ],
+    [
+     "game",
+     {
+      "game": "$game2",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "start the {app} and hide {stat} too",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ],
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ]
+   ]
+  }
+ ]
+}

@@ -33,3 +33,9 @@ def test_every_record_has_a_licence_and_its_texts():
         assert record['texts'], record['package']
         for text in record['texts']:
             assert re.fullmatch(r'[0-9a-f]{64}', text['sha256']) and text['bytes'] > 0
+
+
+def test_the_apps_pack_trains_in_the_same_environment():
+    apps = PACK.parent / 'kilix_apps'
+    for name in ('requirements-train.lock', 'requirements-train.in', 'requirements-train.licences.json'):
+        assert (apps / name).read_bytes() == (PACK / name).read_bytes(), name

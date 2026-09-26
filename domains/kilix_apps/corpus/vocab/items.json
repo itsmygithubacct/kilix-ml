@@ -1,0 +1,95 @@
+{
+ "clock": [
+  "clock",
+  "time"
+ ],
+ "calendar": [
+  "calendar",
+  "date"
+ ],
+ "battery": [
+  "battery"
+ ],
+ "network": [
+  "network",
+  "wifi",
+  "wi-fi",
+  "internet"
+ ],
+ "temperature": [
+  "temperature",
+  "temp",
+  "temps",
+  "thermals"
+ ],
+ "volume": [
+  "volume"
+ ],
+ "windows": [
+  "windows",
+  "window list"
+ ],
+ "speak": [
+  "speak",
+  "read aloud",
+  "read-aloud",
+  "text to speech"
+ ],
+ "dictate": [
+  "dictate",
+  "dictation",
+  "microphone",
+  "mic",
+  "speech to text"
+ ],
+ "split_left": [
+  "split left",
+  "split-left"
+ ],
+ "split_right": [
+  "split right",
+  "split-right"
+ ],
+ "split_up": [
+  "split up",
+  "split-up",
+  "split above"
+ ],
+ "split_down": [
+  "split down",
+  "split-down",
+  "split below"
+ ],
+ "maximize": [
+  "maximize",
+  "maximise"
+ ],
+ "close": [
+  "close",
+  "close button",
+  "close buttons",
+  "x button"
+ ],
+ "font_increase": [
+  "font increase",
+  "bigger font",
+  "larger font",
+  "font size up",
+  "increase font",
+  "font plus"
+ ],
+ "font_decrease": [
+  "font decrease",
+  "smaller font",
+  "font size down",
+  "decrease font",
+  "font minus"
+ ],
+ "synchronize_input": [
+  "synchronize input",
+  "synchronise input",
+  "sync input",
+  "broadcast input",
+  "synchronized input"
+ ]
+}

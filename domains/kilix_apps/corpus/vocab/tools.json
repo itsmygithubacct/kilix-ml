@@ -1,0 +1,30 @@
+{
+ "launcher": [
+  "launcher",
+  "app menu",
+  "application menu",
+  "applications menu"
+ ],
+ "temps": [
+  "temps",
+  "temperatures",
+  "temperature"
+ ],
+ "memory": [
+  "memory",
+  "memory usage",
+  "ram usage",
+  "ram"
+ ],
+ "mixer": [
+  "mixer",
+  "volume mixer",
+  "sound mixer",
+  "audio mixer"
+ ],
+ "transcripts": [
+  "transcripts",
+  "transcript list",
+  "pane transcripts"
+ ]
+}

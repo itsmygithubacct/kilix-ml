@@ -1,0 +1,505 @@
+{
+ "action": "none",
+ "templates": [
+  {
+   "text": "install {app}",
+   "actions": []
+  },
+  {
+   "text": "install the {app} for me",
+   "actions": []
+  },
+  {
+   "text": "uninstall {game}",
+   "actions": []
+  },
+  {
+   "text": "please uninstall the {app}",
+   "actions": []
+  },
+  {
+   "text": "update {game}",
+   "actions": []
+  },
+  {
+   "text": "update the {app} to the latest version",
+   "actions": []
+  },
+  {
+   "text": "download {game}",
+   "actions": []
+  },
+  {
+   "text": "can you download the {app}",
+   "actions": []
+  },
+  {
+   "text": "reinstall {game}",
+   "actions": []
+  },
+  {
+   "text": "upgrade the {app}",
+   "actions": []
+  },
+  {
+   "text": "install a newer version of {game}",
+   "actions": []
+  },
+  {
+   "text": "download the latest {game} patch",
+   "actions": []
+  },
+  {
+   "text": "is there an update for the {app}?",
+   "actions": []
+  },
+  {
+   "text": "check for updates to {game}",
+   "actions": []
+  },
+  {
+   "text": "uninstall the {tool}",
+   "actions": []
+  },
+  {
+   "text": "install updates for everything",
+   "actions": []
+  },
+  {
+   "text": "update all my apps",
+   "actions": []
+  },
+  {
+   "text": "shut down the computer",
+   "actions": []
+  },
+  {
+   "text": "reboot",
+   "actions": []
+  },
+  {
+   "text": "restart my computer please",
+   "actions": []
+  },
+  {
+   "text": "log out",
+   "actions": []
+  },
+  {
+   "text": "log me out of my session",
+   "actions": []
+  },
+  {
+   "text": "suspend the laptop",
+   "actions": []
+  },
+  {
+   "text": "power down the machine",
+   "actions": []
+  },
+  {
+   "text": "hibernate",
+   "actions": []
+  },
+  {
+   "text": "lock the computer",
+   "actions": []
+  },
+  {
+   "text": "send the pc to sleep",
+   "actions": []
+  },
+  {
+   "text": "set the volume to 30%",
+   "actions": []
+  },
+  {
+   "text": "turn the volume up",
+   "actions": []
+  },
+  {
+   "text": "turn the volume down a bit",
+   "actions": []
+  },
+  {
+   "text": "mute the sound",
+   "actions": []
+  },
+  {
+   "text": "volume to 50 percent please",
+   "actions": []
+  },
+  {
+   "text": "make it louder",
+   "actions": []
+  },
+  {
+   "text": "lower the volume by ten",
+   "actions": []
+  },
+  {
+   "text": "unmute",
+   "actions": []
+  },
+  {
+   "text": "quit {game}",
+   "actions": []
+  },
+  {
+   "text": "close the {app}",
+   "actions": []
+  },
+  {
+   "text": "exit {game}",
+   "actions": []
+  },
+  {
+   "text": "kill the {app}",
+   "actions": []
+  },
+  {
+   "text": "close the {tool}",
+   "actions": []
+  },
+  {
+   "text": "force quit the {app}",
+   "actions": []
+  },
+  {
+   "text": "I'm done with {game}, close it",
+   "actions": []
+  },
+  {
+   "text": "close {game} and {game2}",
+   "actions": []
+  },
+  {
+   "text": "shut the {app} down",
+   "actions": []
+  },
+  {
+   "text": "split the pane",
+   "actions": []
+  },
+  {
+   "text": "open a new tab",
+   "actions": []
+  },
+  {
+   "text": "close tab 2",
+   "actions": []
+  },
+  {
+   "text": "split this pane vertically",
+   "actions": []
+  },
+  {
+   "text": "new pane please",
+   "actions": []
+  },
+  {
+   "text": "close this pane",
+   "actions": []
+  },
+  {
+   "text": "switch to the next tab",
+   "actions": []
+  },
+  {
+   "text": "rename this tab to logs",
+   "actions": []
+  },
+  {
+   "text": "maximize this pane",
+   "actions": []
+  },
+  {
+   "text": "move this pane to the right",
+   "actions": []
+  },
+  {
+   "text": "swap the two panes",
+   "actions": []
+  },
+  {
+   "text": "open a new window",
+   "actions": []
+  },
+  {
+   "text": "switch the voice to a british accent",
+   "actions": []
+  },
+  {
+   "text": "use a different text to speech engine",
+   "actions": []
+  },
+  {
+   "text": "change the microphone to my usb headset",
+   "actions": []
+  },
+  {
+   "text": "switch the speech model to whisper large",
+   "actions": []
+  },
+  {
+   "text": "use a female voice for read aloud",
+   "actions": []
+  },
+  {
+   "text": "change the tts engine to piper",
+   "actions": []
+  },
+  {
+   "text": "make the voice talk faster",
+   "actions": []
+  },
+  {
+   "text": "select my webcam mic as the input device",
+   "actions": []
+  },
+  {
+   "text": "turn on session logging",
+   "actions": []
+  },
+  {
+   "text": "stop logging my sessions",
+   "actions": []
+  },
+  {
+   "text": "set the transcript size to 10000 lines",
+   "actions": []
+  },
+  {
+   "text": "limit transcripts to 5 megabytes",
+   "actions": []
+  },
+  {
+   "text": "keep transcripts for 30 days",
+   "actions": []
+  },
+  {
+   "text": "delete all my transcripts",
+   "actions": []
+  },
+  {
+   "text": "enable all games",
+   "actions": []
+  },
+  {
+   "text": "disable every game",
+   "actions": []
+  },
+  {
+   "text": "hide all the indicators",
+   "actions": []
+  },
+  {
+   "text": "show all top bar indicators",
+   "actions": []
+  },
+  {
+   "text": "make all the games unavailable",
+   "actions": []
+  },
+  {
+   "text": "turn off every indicator on the bar",
+   "actions": []
+  },
+  {
+   "text": "unhide everything",
+   "actions": []
+  },
+  {
+   "text": "block all games",
+   "actions": []
+  },
+  {
+   "text": "don't open {app}",
+   "actions": []
+  },
+  {
+   "text": "do not launch {game}",
+   "actions": []
+  },
+  {
+   "text": "please don't start the {tool}",
+   "actions": []
+  },
+  {
+   "text": "never open the {app} again",
+   "actions": []
+  },
+  {
+   "text": "let's not play {game} today",
+   "actions": []
+  },
+  {
+   "text": "no need to open the {app}",
+   "actions": []
+  },
+  {
+   "text": "don't bring up the {tool}",
+   "actions": []
+  },
+  {
+   "text": "don't open the {section} settings",
+   "actions": []
+  },
+  {
+   "text": "my friend said open {game}",
+   "actions": []
+  },
+  {
+   "text": "she told me to launch the {app}",
+   "actions": []
+  },
+  {
+   "text": "he asked me to hide the {item}",
+   "actions": []
+  },
+  {
+   "text": "my brother keeps saying play {game}",
+   "actions": []
+  },
+  {
+   "text": "the tutorial says to open the {app}",
+   "actions": []
+  },
+  {
+   "text": "someone told me to enable {game}",
+   "actions": []
+  },
+  {
+   "text": "my boss said I should turn off the {item}",
+   "actions": []
+  },
+  {
+   "text": "the guide says to show {stat} all the time",
+   "actions": []
+  },
+  {
+   "text": "my sister asked me to launch {game}",
+   "actions": []
+  },
+  {
+   "text": "the error message said to open the {tool}",
+   "actions": []
+  },
+  {
+   "text": "is {game} any good?",
+   "actions": []
+  },
+  {
+   "text": "I love playing {game}",
+   "actions": []
+  },
+  {
+   "text": "the {app} crashed",
+   "actions": []
+  },
+  {
+   "text": "what does the {app} do?",
+   "actions": []
+  },
+  {
+   "text": "how do I use the {tool}?",
+   "actions": []
+  },
+  {
+   "text": "{game} is way too hard",
+   "actions": []
+  },
+  {
+   "text": "who made {game}?",
+   "actions": []
+  },
+  {
+   "text": "my {app} keeps freezing",
+   "actions": []
+  },
+  {
+   "text": "why is the {item} indicator blinking?",
+   "actions": []
+  },
+  {
+   "text": "the {item} on the top bar looks wrong",
+   "actions": []
+  },
+  {
+   "text": "I beat {game} last night",
+   "actions": []
+  },
+  {
+   "text": "does the {app} support dark mode?",
+   "actions": []
+  },
+  {
+   "text": "how many levels does {game} have?",
+   "actions": []
+  },
+  {
+   "text": "the {tool} is slow today",
+   "actions": []
+  },
+  {
+   "text": "{game} reminds me of my childhood",
+   "actions": []
+  },
+  {
+   "text": "is the {app} free?",
+   "actions": []
+  },
+  {
+   "text": "I spent all weekend on {game}",
+   "actions": []
+  },
+  {
+   "text": "open firefox",
+   "actions": []
+  },
+  {
+   "text": "launch spotify",
+   "actions": []
+  },
+  {
+   "text": "start steam",
+   "actions": []
+  },
+  {
+   "text": "open photoshop",
+   "actions": []
+  },
+  {
+   "text": "play minecraft",
+   "actions": []
+  },
+  {
+   "text": "fire up chrome",
+   "actions": []
+  },
+  {
+   "text": "run discord",
+   "actions": []
+  },
+  {
+   "text": "open vs code",
+   "actions": []
+  },
+  {
+   "text": "launch slack for me",
+   "actions": []
+  },
+  {
+   "text": "play fortnite",
+   "actions": []
+  },
+  {
+   "text": "open microsoft word",
+   "actions": []
+  },
+  {
+   "text": "can you start zoom",
+   "actions": []
+  }
+ ]
+}

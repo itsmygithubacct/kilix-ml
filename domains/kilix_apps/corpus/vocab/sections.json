@@ -1,0 +1,30 @@
+{
+ "top-bar": [
+  "top bar",
+  "top-bar",
+  "topbar",
+  "status bar",
+  "bar at the top"
+ ],
+ "pane-buttons": [
+  "pane buttons",
+  "pane-buttons",
+  "pane button",
+  "buttons on panes",
+  "buttons on the panes"
+ ],
+ "voice": [
+  "voice",
+  "speech",
+  "dictation",
+  "text to speech"
+ ],
+ "games": [
+  "games",
+  "game"
+ ],
+ "tools": [
+  "tools",
+  "tool"
+ ]
+}

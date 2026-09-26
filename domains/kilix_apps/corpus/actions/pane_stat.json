@@ -1,0 +1,617 @@
+{
+ "action": "pane_stat",
+ "templates": [
+  {
+   "text": "always show {stat} on panes",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "show the {stat} usage on every pane all the time",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "keep the pane {stat} stat visible at all times",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I want the {stat} meter on each pane permanently",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "set the pane {stat} display to always",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "display {stat} in the pane header constantly",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "pane {stat} always",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "could you make the {stat} readout on panes show all the time",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "please show the {stat} level in every pane at all times",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "have the panes display {stat} permanently",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I'd like to always see the {stat} usage in panes",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "pin the {stat} stat to panes permanently",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "{stat} on panes always please",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "keep {stat} usage showing on all panes constantly",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "the {stat} pane stat should always be visible",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "keep the pane {stat} indicator on permanently",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "show pane {stat} at all times",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "turn off the {stat} stat on panes",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "hide the {stat} usage on each pane",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "never show {stat} on panes",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "stop showing the {stat} meter in panes",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "disable the pane {stat} readout",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I don't need the {stat} stat on panes",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "set the pane {stat} display to off",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "the {stat} usage in panes can stay hidden",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I no longer want {stat} shown on panes",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "please switch the pane {stat} stat off",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "{stat} on panes off",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I don't want the {stat} readout on panes anymore",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "could you hide the {stat} figure from every pane",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "keep the {stat} meter hidden on panes",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "disable {stat} in the pane header",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "turn the per-pane {stat} indicator off",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "the panes don't need the {stat} stat",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "set the pane {stat} stat to auto",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "show {stat} on panes only when busy",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "show the {stat} usage on panes automatically",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "display the {stat} meter in panes when needed",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "make the pane {stat} readout automatic",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "only show the pane {stat} stat when needed",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "have the panes show {stat} when busy",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "switch the {stat} pane stat to automatic mode",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "put the pane {stat} display on auto",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I'd like the {stat} usage to appear on panes only when busy",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "let the {stat} stat on panes show up automatically",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "{stat} on panes auto",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "could you show the {stat} graph in each pane only when needed",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "pane {stat} stat on automatic please",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "the {stat} meter on panes should pop up when busy",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "set {stat} per pane to automatic",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "automatically show the {stat} usage in the pane header",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ]
+   ]
+  }
+ ]
+}

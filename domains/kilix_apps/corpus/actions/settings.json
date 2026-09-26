@@ -1,0 +1,445 @@
+{
+ "action": "settings",
+ "templates": [
+  {
+   "text": "open the {section} settings",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open {section} settings",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "go to the {section} settings",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "take me to {section} settings",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "settings for the {section}",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "{section} settings please",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open settings at {section}",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open the settings to the {section} section",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "jump to the {section} section in settings",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "can you open the {section} preferences",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "{section} preferences",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "let me configure the {section}",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "configure {section}",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "help me configure the {section}",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "where are the {section} settings",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "where do I change the {section} settings",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "bring up the {section} options",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "{section} options please",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open the {section} options",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "pull up the {section} page in settings",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "go to the {section} page",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "navigate to the {section} settings screen",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open the settings screen for {section}",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open the {section} panel",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "could you pull up the {section} settings panel",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I need the {section} settings",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "head over to the {section} section of the settings",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "please open preferences for the {section}",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "adjust the {section} setting",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "where can I tweak the {section} options",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "configure the {section} for me please",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "get me into the {section} settings",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "how do I get to the {section} settings",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open kilix settings at the {section} page",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "go straight to {section} in settings",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "could you take me to the {section} preferences page",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "change the {section} options",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "quick, open the {section} settings page",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "jump into the {section} preferences",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I have to change a few {section} settings",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  }
+ ]
+}

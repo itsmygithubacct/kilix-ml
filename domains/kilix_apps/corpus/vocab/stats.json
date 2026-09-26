@@ -1,0 +1,11 @@
+{
+ "cpu": [
+  "cpu",
+  "processor"
+ ],
+ "memory": [
+  "memory",
+  "ram",
+  "mem"
+ ]
+}
