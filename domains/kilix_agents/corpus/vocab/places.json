@@ -1,0 +1,29 @@
+{
+ "right": [
+  "split right",
+  "to my right",
+  "on the right",
+  "beside me on the right"
+ ],
+ "left": [
+  "split left",
+  "to my left",
+  "on the left"
+ ],
+ "down": [
+  "below me",
+  "split down",
+  "underneath",
+  "under this pane"
+ ],
+ "up": [
+  "above me",
+  "split up",
+  "on top"
+ ],
+ "tab": [
+  "in a new tab",
+  "in its own tab",
+  "as a new tab"
+ ]
+}

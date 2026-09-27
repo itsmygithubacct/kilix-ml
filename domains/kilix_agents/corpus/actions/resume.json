@@ -1,0 +1,48 @@
+{
+  "action": "resume",
+  "templates": [
+    {"text": "resume {session} with {agent} in {dir}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session"}]]},
+    {"text": "continue {session} with {agent} in {dir}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session"}]]},
+    {"text": "reopen {session} with {agent} in {dir}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session"}]]},
+    {"text": "pick {session} back up with {agent} in {dir}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session"}]]},
+    {"text": "resume the {session} session with {agent} in {dir}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session"}]]},
+    {"text": "continue the {session} session using {agent} in {dir}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session"}]]},
+    {"text": "reopen the {session} session in {dir} with {agent}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session"}]]},
+    {"text": "please resume {session} with {agent} in {dir}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session"}]]},
+    {"text": "kindly continue {session} in {dir} with {agent}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session"}]]},
+    {"text": "let's reopen {session} with {agent} in {dir}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session"}]]},
+    {"text": "pick {session} back up in {dir} with {agent}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session"}]]},
+    {"text": "resume {session} in {dir} with {agent}, please", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session"}]]},
+    {"text": "reopen {session} in {dir} using {agent}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session"}]]},
+    {"text": "please pick {session} back up with {agent} in {dir}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session"}]]},
+    {"text": "continue working on {session} with {agent} in {dir}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session"}]]},
+
+    {"text": "resume {session} with {agent} in {dir}: {task}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "prompt": "$task", "resume": "$session"}]]},
+    {"text": "continue {session} with {agent} in {dir}: {task}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "prompt": "$task", "resume": "$session"}]]},
+    {"text": "reopen {session} with {agent} in {dir}: {task}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "prompt": "$task", "resume": "$session"}]]},
+    {"text": "pick {session} back up with {agent} in {dir} to {task}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "prompt": "$task", "resume": "$session"}]]},
+    {"text": "resume the {session} session using {agent} in {dir}: {task}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "prompt": "$task", "resume": "$session"}]]},
+    {"text": "continue the {session} session in {dir} with {agent} to {task}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "prompt": "$task", "resume": "$session"}]]},
+    {"text": "please resume {session} with {agent} in {dir}: {task}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "prompt": "$task", "resume": "$session"}]]},
+    {"text": "kindly continue {session} in {dir} with {agent} to {task}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "prompt": "$task", "resume": "$session"}]]},
+    {"text": "pick the {session} session back up with {agent} in {dir}: {task}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "prompt": "$task", "resume": "$session"}]]},
+    {"text": "reopen {session} in {dir} with {agent} to {task}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "prompt": "$task", "resume": "$session"}]]},
+
+    {"text": "resume {session} with {agent} in {dir} using model {model}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session", "model": "$model"}]]},
+    {"text": "continue {session} using {agent} with model {model} in {dir}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session", "model": "$model"}]]},
+    {"text": "reopen {session} with {agent} in {dir} using model {model}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session", "model": "$model"}]]},
+    {"text": "pick {session} back up using {agent} in {dir} with model {model}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session", "model": "$model"}]]},
+    {"text": "resume the {session} session with {agent} using model {model} in {dir}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session", "model": "$model"}]]},
+    {"text": "continue the {session} session in {dir} using {agent} with model {model}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session", "model": "$model"}]]},
+    {"text": "please resume {session} with {agent} in {dir} with model {model}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session", "model": "$model"}]]},
+    {"text": "kindly reopen {session} in {dir} using {agent} with model {model}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session", "model": "$model"}]]},
+    {"text": "pick the {session} session back up with {agent} using model {model} in {dir}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session", "model": "$model"}]]},
+    {"text": "reopen {session} with {agent} in {dir} with model {model}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "resume": "$session", "model": "$model"}]]},
+
+    {"text": "resume {session} with {agent} in {dir} using model {model}: {task}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "prompt": "$task", "resume": "$session", "model": "$model"}]]},
+    {"text": "continue {session} using {agent} with model {model} in {dir}: {task}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "prompt": "$task", "resume": "$session", "model": "$model"}]]},
+    {"text": "reopen {session} with {agent} in {dir} using model {model} to {task}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "prompt": "$task", "resume": "$session", "model": "$model"}]]},
+    {"text": "pick {session} back up using {agent} in {dir} with model {model}: {task}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "prompt": "$task", "resume": "$session", "model": "$model"}]]},
+    {"text": "please resume the {session} session with {agent} using model {model} in {dir}: {task}", "actions": [["agent", {"agent": "$agent", "dir": "$dir", "prompt": "$task", "resume": "$session", "model": "$model"}]]}
+  ]
+}

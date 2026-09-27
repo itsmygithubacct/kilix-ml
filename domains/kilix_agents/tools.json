@@ -1,0 +1,103 @@
+[
+ {
+  "name": "agent",
+  "description": "Start a coding-agent session in a directory, optionally with a task, resuming a previous session, with a model, or as a split",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "agent": {
+     "type": "string",
+     "enum": [
+      "claude",
+      "codex",
+      "grok",
+      "qwen-omp"
+     ]
+    },
+    "dir": {
+     "type": "string",
+     "description": "the directory, as the request names it"
+    },
+    "prompt": {
+     "type": "string",
+     "description": "the task text, exactly as written"
+    },
+    "resume": {
+     "type": "string",
+     "description": "the session id or title to resume"
+    },
+    "model": {
+     "type": "string",
+     "description": "a model name, as written"
+    },
+    "place": {
+     "type": "string",
+     "enum": [
+      "tab",
+      "right",
+      "left",
+      "down",
+      "up"
+     ]
+    }
+   },
+   "required": [
+    "agent",
+    "dir"
+   ]
+  }
+ },
+ {
+  "name": "wait",
+  "description": "Wait until a coding session is idle (its turn finished) or waiting (it asks something)",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "session": {
+     "type": "string",
+     "description": "'it' for the session just launched, else agent@dir"
+    },
+    "for": {
+     "type": "string",
+     "enum": [
+      "idle",
+      "waiting"
+     ]
+    },
+    "timeout": {
+     "type": "integer",
+     "description": "seconds, when the request says"
+    }
+   },
+   "required": [
+    "session",
+    "for"
+   ]
+  }
+ },
+ {
+  "name": "tell",
+  "description": "Send a message to a coding session and submit it",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "session": {
+     "type": "string",
+     "description": "'it' for the session just launched, else agent@dir"
+    },
+    "text": {
+     "type": "string",
+     "description": "the message, exactly as written"
+    },
+    "wait": {
+     "type": "boolean",
+     "description": "wait until it is idle first"
+    }
+   },
+   "required": [
+    "session",
+    "text"
+   ]
+  }
+ }
+]
