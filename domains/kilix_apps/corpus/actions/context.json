@@ -1,0 +1,420 @@
+{
+ "templates": [
+  {
+   "text": "i'm bored; open {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "long day. let's play {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "need a break - fire up {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "it's raining. pull up the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I have some work to do; open the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "quick one: launch the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "time to relax — start {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "no rush; bring up the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I just got back. open the {tool}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open the {app} so I can take a look",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "launch the {app} so that I can check something",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "bring up the {app} for this document",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "pull up the {tool} so I can see it",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "start {game} so we can play",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "the {item} is cluttering the top bar; hide the {item}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "the {item} is useful - show the {item}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "it's getting busy up there. get rid of the {item}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "i miss the {item}; bring the {item} back",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "make the {item} indicator visible",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "put the {item} on",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "keep the pane {stat} visible",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "show pane {stat} continuously",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "remove the {stat} usage from my panes",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "off"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "let kilix decide when to show pane {stat}",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "auto"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I'm watching a heavy job: keep {stat} visible on every pane",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "leave the pane {stat} readout on screen",
+   "actions": [
+    [
+     "pane_stat",
+     {
+      "stat": "$stat",
+      "mode": "always"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "keep {game} out of my game picker",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "hide {game} from the available games",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "the kids like {game}; make {game} available",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "take me straight to the {section} settings",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "navigate settings to the {section} section",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "hide the {item} — no, don't",
+   "actions": []
+  },
+  {
+   "text": "open {game}. actually, cancel that",
+   "actions": []
+  },
+  {
+   "text": "open {game}. ?",
+   "actions": []
+  },
+  {
+   "text": "? open the {app}",
+   "actions": []
+  },
+  {
+   "text": "can you open the {app}? thanks?",
+   "actions": []
+  },
+  {
+   "text": "I don't want {game}; open {game}",
+   "actions": []
+  },
+  {
+   "text": "my friend is bored; he said open {game}",
+   "actions": []
+  },
+  {
+   "text": "open {game} so I can play {game2}",
+   "actions": []
+  },
+  {
+   "text": "it's late. open {game} tomorrow",
+   "actions": []
+  },
+  {
+   "text": "hide the {item}; no, keep it",
+   "actions": []
+  },
+  {
+   "text": "open the {app} - just kidding",
+   "actions": []
+  },
+  {
+   "text": "the {item} is fine. never mind",
+   "actions": []
+  },
+  {
+   "text": "should I open {game}? maybe",
+   "actions": []
+  },
+  {
+   "text": "I never use the {item}. don't hide it",
+   "actions": []
+  },
+  {
+   "text": "open {game} so I don't have to play {game2}",
+   "actions": []
+  }
+ ]
+}

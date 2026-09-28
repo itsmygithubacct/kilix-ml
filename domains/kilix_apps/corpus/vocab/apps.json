@@ -34,7 +34,8 @@
  "kilix-session-center": [
   "kilix session center",
   "session center",
-  "session centre"
+  "session centre",
+  "session tools center"
  ],
  "kilix-model-store": [
   "kilix model store",
@@ -86,7 +87,9 @@
   "chawan",
   "text browser",
   "web browser",
-  "text-mode browser"
+  "text-mode browser",
+  "text web browser",
+  "terminal web browser"
  ],
  "kilix-rollout-resume": [
   "kilix rollout resume",
@@ -163,6 +166,7 @@
   "techno",
   "music workstation",
   "sequencer",
-  "drum machine"
+  "drum machine",
+  "sequencer workstation"
  ]
 }

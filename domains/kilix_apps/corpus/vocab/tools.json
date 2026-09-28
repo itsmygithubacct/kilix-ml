@@ -8,13 +8,16 @@
  "temps": [
   "temps",
   "temperatures",
-  "temperature"
+  "temperature",
+  "temperatures view"
  ],
  "memory": [
   "memory",
   "memory usage",
   "ram usage",
-  "ram"
+  "ram",
+  "ram usage view",
+  "memory view"
  ],
  "mixer": [
   "mixer",
