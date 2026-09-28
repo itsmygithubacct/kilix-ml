@@ -45,56 +45,12 @@
    ]
   },
   {
-   "text": "I have some work to do; open the {app}",
-   "actions": [
-    [
-     "launch",
-     {
-      "app": "$app"
-     }
-    ]
-   ]
-  },
-  {
    "text": "quick one: launch the {app}",
    "actions": [
     [
      "launch",
      {
       "app": "$app"
-     }
-    ]
-   ]
-  },
-  {
-   "text": "time to relax — start {game}",
-   "actions": [
-    [
-     "launch",
-     {
-      "app": "$game"
-     }
-    ]
-   ]
-  },
-  {
-   "text": "no rush; bring up the {app}",
-   "actions": [
-    [
-     "launch",
-     {
-      "app": "$app"
-     }
-    ]
-   ]
-  },
-  {
-   "text": "I just got back. open the {tool}",
-   "actions": [
-    [
-     "launch",
-     {
-      "app": "$tool"
      }
     ]
    ]
@@ -144,78 +100,7 @@
    ]
   },
   {
-   "text": "start {game} so we can play",
-   "actions": [
-    [
-     "launch",
-     {
-      "app": "$game"
-     }
-    ]
-   ]
-  },
-  {
-   "text": "the {item} is cluttering the top bar; hide the {item}",
-   "actions": [
-    [
-     "show",
-     {
-      "item": "$item",
-      "on": false
-     }
-    ]
-   ]
-  },
-  {
-   "text": "the {item} is useful - show the {item}",
-   "actions": [
-    [
-     "show",
-     {
-      "item": "$item",
-      "on": true
-     }
-    ]
-   ]
-  },
-  {
-   "text": "it's getting busy up there. get rid of the {item}",
-   "actions": [
-    [
-     "show",
-     {
-      "item": "$item",
-      "on": false
-     }
-    ]
-   ]
-  },
-  {
-   "text": "i miss the {item}; bring the {item} back",
-   "actions": [
-    [
-     "show",
-     {
-      "item": "$item",
-      "on": true
-     }
-    ]
-   ]
-  },
-  {
    "text": "make the {item} indicator visible",
-   "actions": [
-    [
-     "show",
-     {
-      "item": "$item",
-      "on": true
-     }
-    ]
-   ]
-  },
-  {
-   "text": "put the {item} on",
    "actions": [
     [
      "show",
@@ -258,18 +143,6 @@
      {
       "stat": "$stat",
       "mode": "off"
-     }
-    ]
-   ]
-  },
-  {
-   "text": "let kilix decide when to show pane {stat}",
-   "actions": [
-    [
-     "pane_stat",
-     {
-      "stat": "$stat",
-      "mode": "auto"
      }
     ]
    ]
@@ -318,18 +191,6 @@
      {
       "game": "$game",
       "available": false
-     }
-    ]
-   ]
-  },
-  {
-   "text": "the kids like {game}; make {game} available",
-   "actions": [
-    [
-     "game",
-     {
-      "game": "$game",
-      "available": true
      }
     ]
    ]
@@ -415,6 +276,163 @@
   {
    "text": "open {game} so I don't have to play {game2}",
    "actions": []
+  },
+  {
+   "text": "I'm bored. open {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "it's cold out. pull up the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "long day. start {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I'm back. open the {tool}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$tool"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "phew, I'm tired. play {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "it's so hot; hide the {item}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": false
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I'm curious. open the {section} settings",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I'm restless - enable {game}",
+   "actions": [
+    [
+     "game",
+     {
+      "game": "$game",
+      "available": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "quick one - launch the {app}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "it's raining out. fire up {game}",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$game"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "I'm a bit stressed; show the {item}",
+   "actions": [
+    [
+     "show",
+     {
+      "item": "$item",
+      "on": true
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open the {section} settings so I can have a look",
+   "actions": [
+    [
+     "settings",
+     {
+      "section": "$section"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "open the {app} for my work",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
+  },
+  {
+   "text": "pull up the {app} so I can see what's there",
+   "actions": [
+    [
+     "launch",
+     {
+      "app": "$app"
+     }
+    ]
+   ]
   }
  ]
 }
