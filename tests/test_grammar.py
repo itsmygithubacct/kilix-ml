@@ -18,7 +18,7 @@ def walk(grammar, raw):
 
 def test_real_tool_schemas_compile_and_walk():
     g = compile_tools(TOOLS, "open vim in a pane on the right", max_calls=1)
-    walk(g, b'[{"name":"open_pane","arguments":{"side":"right","program":"vim"}}]')
+    walk(g, b'[{"name":"open_pane","arguments":{"program":"vim","side":"right"}}]')
     walk(g, b'[]')
 
 
@@ -27,7 +27,7 @@ def test_source_constrained_and_bounds():
     state = g.initial_state()
     assert g.advance(state, b'[{"name":"close_pane","arguments":{"pane":"invented"}}]') is None
     g2 = compile_tools(TOOLS, "resize pane 80", max_calls=1)
-    assert g2.advance(g2.initial_state(), b'[{"name":"resize_pane","arguments":{"direction":"wider","amount":51}}]') is None
+    assert g2.advance(g2.initial_state(), b'[{"name":"resize_pane","arguments":{"amount":51,"direction":"wider"}}]') is None
 
 
 def test_unknown_property_rejected_and_mask():
@@ -48,9 +48,9 @@ def test_long_request_and_independent_source_fields():
     request = "Please open vim and call the new pane editor; then leave all other panes exactly as they are today."
     assert len(request) >= 80
     g = compile_tools(TOOLS, request, max_calls=1)
-    walk(g, b'[{"name":"open_pane","arguments":{"program":"vim","name":"editor"}}]')
-    assert g.advance(g.initial_state(), b'[{"name":"open_pane","arguments":{"program":"nano","name":"editor"}}]') is None
-    assert g.advance(g.initial_state(), b'[{"name":"open_pane","arguments":{"program":"vim","name":"editorx"}}]') is None
+    walk(g, b'[{"name":"open_pane","arguments":{"name":"editor","program":"vim"}}]')
+    assert g.advance(g.initial_state(), b'[{"name":"open_pane","arguments":{"name":"editor","program":"nano"}}]') is None
+    assert g.advance(g.initial_state(), b'[{"name":"open_pane","arguments":{"name":"editorx","program":"vim"}}]') is None
 
 
 def test_input_or_canonical_tab_numbers_and_multi_call_array():

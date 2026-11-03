@@ -16,13 +16,17 @@ def canonical_calls(calls, tools):
         args = call['arguments']
         if set(args) - set(properties):
             raise ValueError('undeclared arguments')
-        out.append({'name': call['name'], 'arguments': {k: args[k] for k in properties if k in args}})
+        out.append({'name': call['name'], 'arguments': {k: args[k] for k in sorted(properties) if k in args}})
     return out
 
 
 def prefix(tokenizer, tools=None, system=None):
     ids = [tokenizer.special['<bos>']]
-    for role, text in [('system', system), ('tools', None if tools is None else compact(tools))]:
+    # Corpus JSON is written with sorted object keys. Use the same ordering for
+    # caller-provided schemas; object insertion order must not change the prompt.
+    tool_text = None if tools is None else json.dumps(
+        tools, ensure_ascii=False, separators=(',', ':'), allow_nan=False, sort_keys=True)
+    for role, text in [('system', system), ('tools', tool_text)]:
         if text is not None:
             ids += [tokenizer.special[f'<|{role}|>']] + tokenizer.encode(text) + [tokenizer.special['<|end|>']]
     return ids

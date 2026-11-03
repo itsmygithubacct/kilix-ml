@@ -175,7 +175,8 @@ def _object_fragment(nfa, schema, request):
     required = set(required_list)
     if not required <= set(props):
         raise ValueError("required property missing from properties")
-    names = list(props)
+    # Match format.canonical_calls, independent of schema insertion order.
+    names = sorted(props)
     if len(names) > 24:
         raise ValueError("object schema has too many properties")
     close = nfa.node()

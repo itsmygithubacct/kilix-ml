@@ -62,6 +62,11 @@ and reuses KV buffers. It defaults BLAS threads to one before importing NumPy;
 explicit caller environment settings win. Set those variables before importing
 NumPy in a larger host process too. Engine calls are serialized with a lock.
 
+Schema object keys and generated argument keys use lexicographic order in both
+training and inference, matching the sorted corpus JSON. Tool and enum arrays
+retain their supplied order. Older evaluations that used unsorted schemas must
+be rerun; custom checkpoints trained with a different ordering need revalidation.
+
 ## Training
 
 `models/7.2m.json` records a 30B-token pretraining target followed by generic,
