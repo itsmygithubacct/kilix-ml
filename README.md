@@ -63,9 +63,13 @@ explicit caller environment settings win. Set those variables before importing
 NumPy in a larger host process too. Engine calls are serialized with a lock.
 
 Schema object keys and generated argument keys use lexicographic order in both
-training and inference, matching the sorted corpus JSON. Tool and enum arrays
-retain their supplied order. Older evaluations that used unsorted schemas must
-be rerun; custom checkpoints trained with a different ordering need revalidation.
+training and inference, matching the sorted corpus JSON. This applies recursively
+to object values in supported `const` and `enum` literals, including objects in
+constant arrays. Tool lists, enum alternatives and data arrays retain their
+supplied order; caller-owned values are not mutated. General nested object and
+array schemas remain unsupported. Older evaluations that used unsorted schemas
+must be rerun; custom checkpoints trained with a different ordering need
+revalidation.
 
 ## Training
 

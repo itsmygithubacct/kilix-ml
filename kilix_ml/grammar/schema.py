@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 
+from ..format import canonical_value
 from .mask import _NFA, ByteGrammar
 
 
@@ -133,7 +134,8 @@ def _schema_fragment(nfa, schema, request):
                            (expected == "null" and value is None))
                 if not matches:
                     raise ValueError(f"{keyword} value conflicts with its declared type")
-        fragments = [nfa.literal(json.dumps(v, ensure_ascii=False, separators=(",", ":")).encode()) for v in values]
+        fragments = [nfa.literal(json.dumps(canonical_value(v), ensure_ascii=False,
+                                            separators=(",", ":")).encode()) for v in values]
         return fragments[0] if keyword == "const" else nfa.alt(fragments)
     typ = schema.get("type")
     if typ == "string":
