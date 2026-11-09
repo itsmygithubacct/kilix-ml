@@ -3,6 +3,24 @@
 Small, independently implemented tool models: PyTorch training and an offline
 NumPy-only inference runtime. MIT, by itsmygithubacct.
 
+**Status:** reaches users inside [kilix-needle](https://github.com/itsmygithubacct/kilix-needle#readme),
+which carries this repository as its `third_party/kilix-ml` submodule; the
+Kilix content catalog installs Needle (`kilix install kilix-needle`) with its
+submodules. Plebian-OS and Kilix do not install kilix-ml on its own.
+
+## What it does
+
+- Defines small attention-only tool-calling models (`models/7.2m.json`) and
+  trains them with PyTorch (`kilix_ml.train`).
+- Runs exported bundles on the CPU with NumPy only, under grammar-constrained
+  decoding against a tool schema (`kilix_ml.runtime`).
+- Holds the domain packs: corpora, tool lists and validators for Kilix panes,
+  apps and agents, plus a synthetic-home pack. The `kilix_panes`, `kilix_apps`
+  and `kilix_agents` packs are the tuning library that `kilix-needle tune`
+  reads.
+- Evaluates checkpoints and exports fp32 safetensors with verified JSON
+  manifests and no pickle.
+
 ## Status
 
 Training and inference code are implemented. No model is promoted for use in
@@ -99,3 +117,53 @@ pickle. The second pack is `domains/synthetic_home`.
 Independent held-out cases, training data, and generated weights live outside
 this source directory. Training artifacts must not contain credentials or live
 Kilix user data.
+
+## How it works
+
+```
+ domains/<pack>/  corpus templates, tools.json, validator
+        |  generate.py fills templates into requests and expected calls
+        v
+ kilix_ml.train   tokenizer, pretraining, SFT  ->  safetensors + manifest
+        |  kilix_ml.export: digests every file, no pickle
+        v
+ kilix_ml.runtime NumPy forward pass, cached tool prefix, grammar mask
+        |  calls are proposals only
+        v
+ kilix-needle     semantic checks, confirmation, execution
+```
+
+`kilix_ml.format` renders the same prompt for training labels and inference.
+`kilix_ml.grammar` turns each tool's JSON schema into a mask over the next
+token, so a decoded call always parses against the schema. The runtime never
+executes a call; the Kilix packs check proposals through kilix-needle, which
+owns confirmation and execution.
+
+## Documentation
+
+- [NOTICE.md](NOTICE.md) — training data sources, licences and transformations
+- [domains/kilix_panes/README.md](domains/kilix_panes/README.md) — the panes contract, its 14 tools and the batch validator
+- [domains/kilix_panes/LICENCES-TRAINING.md](domains/kilix_panes/LICENCES-TRAINING.md) — licences of the panes training dependencies
+- [domains/kilix_apps/README.md](domains/kilix_apps/README.md) — the apps job's training library
+- [domains/kilix_agents/TEMPLATE-SPEC.md](domains/kilix_agents/TEMPLATE-SPEC.md) — template rules for the agents pack
+- [domains/synthetic_home/README.md](domains/synthetic_home/README.md) — the second-domain schema pack
+
+## Related repositories
+
+- [kilix-needle](https://github.com/itsmygithubacct/kilix-needle#readme) — the application that pins this repository as a submodule, tunes from its packs and checks its proposals
+- [kilix-content](https://github.com/itsmygithubacct/kilix-content#readme) — the catalog that installs kilix-needle
+
+## Part of Plebian-OS
+
+kilix-ml is one of the repositories behind
+[Plebian-OS](https://github.com/itsmygithubacct/plebian-os#readme), a Debian
+install whose desktop is [Kilix](https://github.com/itsmygithubacct/kilix#readme)
+running the [Kilix 95](https://github.com/itsmygithubacct/kilix-95#readme)
+desktop through [Pleb](https://github.com/itsmygithubacct/pleb#readme).
+It is installed on demand as a submodule of kilix-needle. The map of every
+repository and how it ships is on the
+[components page](https://github.com/itsmygithubacct/plebian-os/blob/main/docs/components.md).
+
+## Licence
+
+MIT. See [LICENSE](LICENSE).
