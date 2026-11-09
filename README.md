@@ -5,8 +5,9 @@ NumPy-only inference runtime. MIT, by itsmygithubacct.
 
 **Status:** reaches users inside [kilix-needle](https://github.com/itsmygithubacct/kilix-needle#readme),
 which carries this repository as its `third_party/kilix-ml` submodule; the
-Kilix content catalog installs Needle (`kilix install kilix-needle`) with its
-submodules. Plebian-OS and Kilix do not install kilix-ml on its own.
+Kilix content catalog installs Needle with its submodules, and the Plebian-OS
+first-boot provisioner runs that install (`kilix app install kilix-needle`).
+Plebian-OS and Kilix do not install kilix-ml on its own.
 
 ## What it does
 
@@ -14,8 +15,9 @@ submodules. Plebian-OS and Kilix do not install kilix-ml on its own.
   trains them with PyTorch (`kilix_ml.train`).
 - Runs exported bundles on the CPU with NumPy only, under grammar-constrained
   decoding against a tool schema (`kilix_ml.runtime`).
-- Holds the domain packs: corpora, tool lists and validators for Kilix panes,
-  apps and agents, plus a synthetic-home pack. The `kilix_panes`, `kilix_apps`
+- Holds the domain packs: corpora and tool lists for Kilix panes, apps and
+  agents (the panes pack also has a validator), plus a synthetic-home tool
+  schema. The `kilix_panes`, `kilix_apps`
   and `kilix_agents` packs are the tuning library that `kilix-needle tune`
   reads.
 - Evaluates checkpoints and exports fp32 safetensors with verified JSON
@@ -121,7 +123,7 @@ Kilix user data.
 ## How it works
 
 ```
- domains/<pack>/  corpus templates, tools.json, validator
+ domains/<pack>/  corpus templates, tools.json (panes: validate.py)
         |  generate.py fills templates into requests and expected calls
         v
  kilix_ml.train   tokenizer, pretraining, SFT  ->  safetensors + manifest
@@ -136,8 +138,9 @@ Kilix user data.
 `kilix_ml.format` renders the same prompt for training labels and inference.
 `kilix_ml.grammar` turns each tool's JSON schema into a mask over the next
 token, so a decoded call always parses against the schema. The runtime never
-executes a call; the Kilix packs check proposals through kilix-needle, which
-owns confirmation and execution.
+executes a call; the panes pack's `validate.py` checks proposals through
+kilix-needle, which owns confirmation and execution; for a pack without one,
+`Domain.validate_many` checks calls against the tool schema only.
 
 ## Documentation
 
@@ -160,7 +163,7 @@ kilix-ml is one of the repositories behind
 install whose desktop is [Kilix](https://github.com/itsmygithubacct/kilix#readme)
 running the [Kilix 95](https://github.com/itsmygithubacct/kilix-95#readme)
 desktop through [Pleb](https://github.com/itsmygithubacct/pleb#readme).
-It is installed on demand as a submodule of kilix-needle. The map of every
+It is installed at first boot as a submodule of kilix-needle. The map of every
 repository and how it ships is on the
 [components page](https://github.com/itsmygithubacct/plebian-os/blob/main/docs/components.md).
 
